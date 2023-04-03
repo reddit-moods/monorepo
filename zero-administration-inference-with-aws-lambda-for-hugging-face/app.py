@@ -6,6 +6,7 @@ SPDX-License-Identifier: MIT-0
 import os
 from pathlib import Path
 from aws_cdk import (
+    aws_apigateway as apigateway,
     aws_lambda as lambda_,
     aws_efs as efs,
     aws_ec2 as ec2
@@ -16,6 +17,14 @@ from constructs import Construct
 
 
 class ServerlessHuggingFaceStack(Stack):
+    """
+    Test locally with:
+
+    cdk synth
+    sam build -t ./cdk.out/ServerlessHuggingFaceStack.template.json
+    sam local invoke -t ./cdk.out/ServerlessHuggingFaceStack.template.json sentiment
+    """
+
     def __init__(self, scope: Construct, id: str, **kwargs) -> None:
         super().__init__(scope, id, **kwargs)
 
@@ -37,23 +46,36 @@ class ServerlessHuggingFaceStack(Stack):
         docker_folder = os.path.dirname(
             os.path.realpath(__file__)) + "/inference"
         pathlist = Path(docker_folder).rglob('*.py')
-        for path in pathlist:
-            base = os.path.basename(path)
-            filename = os.path.splitext(base)[0]
-            # Lambda Function from docker image
-            lambda_.DockerImageFunction(
-                self, filename,
-                code=lambda_.DockerImageCode.from_image_asset(docker_folder,
-                                                              cmd=[
-                                                                  filename+".handler"]
-                                                              ),
-                memory_size=8096,
-                timeout=Duration.seconds(600),
-                vpc=vpc,
-                filesystem=lambda_.FileSystem.from_efs_access_point(
-                    access_point, '/mnt/hf_models_cache'),
-                environment={"TRANSFORMERS_CACHE": "/mnt/hf_models_cache"},
-            )
+        # for path in pathlist:
+        base = os.path.basename(next(pathlist))
+        filename = os.path.splitext(base)[0]
+        # Lambda Function from docker image
+        handler = lambda_.DockerImageFunction(
+            self, filename,
+            code=lambda_.DockerImageCode.from_image_asset(docker_folder,
+                                                          cmd=[
+                                                              filename+".handler"]
+                                                          ),
+            memory_size=8096,
+            timeout=Duration.seconds(600),
+            vpc=vpc,
+            filesystem=lambda_.FileSystem.from_efs_access_point(
+                access_point, '/mnt/hf_models_cache'),
+            environment={"TRANSFORMERS_CACHE": "/mnt/hf_models_cache"},
+        )
+
+        api = apigateway.RestApi(self, "reddit-moods-api",
+                                 rest_api_name="Reddit Moods API",
+                                 description="This service lets you query the sentiment of a subreddit.")
+        # req_params = {
+        #     "method.request.querystring.subreddit": True
+        # }
+        req_template = {"application/json": '{"statusCode": 200}'}
+        get_sentiment_int = apigateway.LambdaIntegration(handler,
+                                                         #  request_parameters=req_params,
+                                                         request_templates=req_template)
+
+        api.root.add_method("GET", get_sentiment_int)   # GET /
 
 
 app = App()
