@@ -66,7 +66,12 @@ class ServerlessHuggingFaceStack(Stack):
 
         api = apigateway.RestApi(self, "reddit-moods-api",
                                  rest_api_name="Reddit Moods API",
-                                 description="This service lets you query the sentiment of a subreddit.")
+                                 description="This service lets you query the sentiment of a subreddit.",
+                                 default_cors_preflight_options=apigateway.CorsOptions(
+                                     allow_origins=apigateway.Cors.ALL_ORIGINS,
+                                     allow_methods=apigateway.Cors.ALL_METHODS
+                                 )
+                                 )
         # req_params = {
         #     "method.request.querystring.subreddit": True
         # }

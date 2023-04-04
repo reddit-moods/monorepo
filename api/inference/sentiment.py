@@ -75,7 +75,12 @@ def handler(event, context):
 
     response = {
         "statusCode": 200,
-        "body": stringified_body
+        "body": stringified_body,
+        'headers': {
+            'Access-Control-Allow-Headers': 'Content-Type',
+            'Access-Control-Allow-Origin': 'http://localhost:3000',
+            'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
+        },
     }
 
     return response
