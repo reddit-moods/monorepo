@@ -70,11 +70,12 @@ def handler(event, context):
         "sentiment": label_to_pred(res["label"]),
         "confidence": res["score"]
     }
-    print("resp_body: ", resp_body)
+    stringified_body = json.dumps(resp_body)
+    print("resp_body: ", stringified_body)
 
     response = {
         "statusCode": 200,
-        "body": resp_body
+        "body": stringified_body
     }
 
     return response
