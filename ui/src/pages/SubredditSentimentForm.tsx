@@ -9,7 +9,7 @@ import {
 import { useState } from "react";
 
 interface FormValues {
-  name: string;
+  subreddit: string;
 }
 
 interface SentimentState {
@@ -17,7 +17,7 @@ interface SentimentState {
   confidence: number;
 }
 
-export default function HookForm() {
+export default function SubredditSentimentForm() {
   const {
     handleSubmit,
     register,
@@ -35,7 +35,7 @@ export default function HookForm() {
       API_URL +
         "?" +
         new URLSearchParams({
-          subreddit: values.name,
+          subreddit: values.subreddit,
         }),
       {
         headers: {
@@ -66,18 +66,18 @@ export default function HookForm() {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <FormControl isInvalid={errors.name != undefined}>
-          <FormLabel htmlFor="name">Subreddit</FormLabel>
+        <FormControl isInvalid={errors.subreddit != undefined}>
+          <FormLabel htmlFor="subreddit">Subreddit</FormLabel>
           <Input
-            id="name"
-            placeholder="name"
-            {...register("name", {
-              required: "This is required",
+            id="subreddit"
+            placeholder="subreddit"
+            {...register("subreddit", {
+              required: "Please specify a non-empty subreddit name.",
               minLength: { value: 1, message: "Minimum length should be 4" },
             })}
           />
           <FormErrorMessage>
-            <>{errors.name && errors.name.message}</>
+            <>{errors.subreddit && errors.subreddit.message}</>
           </FormErrorMessage>
         </FormControl>
         <Button

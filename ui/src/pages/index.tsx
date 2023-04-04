@@ -1,4 +1,4 @@
-import HookForm from "./HookForm";
+import SubredditSentimentForm from "./SubredditSentimentForm";
 import { NextSeo } from "next-seo";
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
         }}
       />
       <main>
-        <HookForm></HookForm>
+        <SubredditSentimentForm></SubredditSentimentForm>
       </main>
     </>
   );
