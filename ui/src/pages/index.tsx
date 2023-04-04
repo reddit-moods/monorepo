@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import SubredditSentimentForm from "./SubredditSentimentForm";
+import SubredditSentimentForm from "../components/SubredditSentimentForm";
 import { NextSeo } from "next-seo";
 
 export default function Home() {
