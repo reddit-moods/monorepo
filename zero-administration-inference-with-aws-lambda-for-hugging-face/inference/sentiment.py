@@ -57,7 +57,12 @@ def handler(event, context):
 
     print("type: ", type(qs["subreddit"]))
     subreddit = qs["subreddit"]
+    # TODO: fetch the top 25 hottest reddit posts for the input subreddit
+    # PRAW
+    # Send a raw API request to reddit
     print("subreddit: ", subreddit)
+    # Get most common predicted label from the top 25 headlines --> then average
+    # the predictions
     res = nlp_pipeline(subreddit)[0]
     print("model pred: ", res)
     # Post-process
