@@ -1,3 +1,4 @@
+import { Flex } from "@chakra-ui/react";
 import SubredditSentimentForm from "./SubredditSentimentForm";
 import { NextSeo } from "next-seo";
 
@@ -17,7 +18,7 @@ export default function Home() {
               url: "https://www.redditinc.com/assets/images/site/reddit-logo.png",
               width: 800,
               height: 600,
-              alt: "Og Image Alt",
+              alt: "Reddit Moods Image",
               type: "image/png",
             },
           ],
@@ -25,7 +26,15 @@ export default function Home() {
         }}
       />
       <main>
-        <SubredditSentimentForm></SubredditSentimentForm>
+        <Flex
+          w={"100%"}
+          h={"100vh"}
+          flexDirection="column"
+          alignItems={"center"}
+          justifyContent={"center"}
+        >
+          <SubredditSentimentForm></SubredditSentimentForm>
+        </Flex>
       </main>
     </>
   );
