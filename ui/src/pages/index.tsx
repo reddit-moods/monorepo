@@ -1,17 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@redditmoods/styles/Home.module.css";
-import {
-  FormControl,
-  FormHelperText,
-  FormLabel,
-  Input,
-} from "@chakra-ui/react";
-import { useForm } from "react-hook-form";
 import HookForm from "./HookForm";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (

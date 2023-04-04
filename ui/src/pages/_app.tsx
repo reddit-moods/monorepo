@@ -1,10 +1,11 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import "@redditmoods/styles/globals.css";
+import customTheme from "@redditmoods/theme/theme";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={customTheme}>
       <Component {...pageProps} />
     </ChakraProvider>
   );
