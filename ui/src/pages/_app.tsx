@@ -1,5 +1,4 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import "@redditmoods/styles/globals.css";
 import customTheme from "@redditmoods/theme/theme";
 import type { AppProps } from "next/app";
 
