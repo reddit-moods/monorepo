@@ -40,3 +40,7 @@ The API will consist of the following endpoints:
 For our initial MVP, we can implement a basic version of this API with AWS Lambda and Hugging Face.
 
 TBD
+
+## Evaluation Pipeline
+
+TODO
