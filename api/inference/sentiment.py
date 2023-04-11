@@ -4,9 +4,10 @@ SPDX-License-Identifier: MIT-0
 """
 
 import json
+import praw
 
 from transformers import pipeline, AutoTokenizer
-
+from collections import Counter
 
 def initialize_pipeline():
     # Taking in the text string - wen is so hot
@@ -57,18 +58,41 @@ def handler(event, context):
 
     print("type: ", type(qs["subreddit"]))
     subreddit = qs["subreddit"]
-    # TODO: fetch the top 25 hottest reddit posts for the input subreddit
-    # PRAW
-    # Send a raw API request to reddit
-    print("subreddit: ", subreddit)
-    # Get most common predicted label from the top 25 headlines --> then average
-    # the predictions
-    res = nlp_pipeline(subreddit)[0]
-    print("model pred: ", res)
+    
+    # initialize praw
+    reddit = praw.Reddit(
+        client_id = 'insert_client_id',
+        client_secret = 'insert_secret_key',
+        user_agent = 'insert_user_agent'
+    )
+    
+    # Send a raw API request to reddit to fetch the 25 hottest 
+    headings = []
+    for submission in reddit.subreddit(subreddit).hot(limit=25):
+        headings.append(submission.title)
+        
+    # running model on each heading
+    model_result = []
+    for topic in headings:
+        model_result.append(nlp_pipeline(topic)[0])
+    
+    # find most common label
+    label_counts = Counter(heading['label'] for heading in model_result)
+    most_common_label = label_counts.most_common(1)[0][0]
+    
+    # average the predict of the most common label
+    total_score = 0
+    count = 0
+    for h in model_result:
+        if h['label'] == most_common_label:
+            total_score += h['score']
+            count += 1
+    average_score = total_score / count
+    
     # Post-process
     resp_body = {
-        "sentiment": label_to_pred(res["label"]),
-        "confidence": res["score"]
+        "sentiment": label_to_pred(most_common_label),
+        "confidence": average_score
     }
     stringified_body = json.dumps(resp_body)
     print("resp_body: ", stringified_body)
