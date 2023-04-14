@@ -11,12 +11,13 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { useState } from "react";
+import SentimentResult from "./SentimentResult";
 
 interface FormValues {
   subreddit: string;
 }
 
-interface SentimentState {
+export interface SentimentState {
   sentiment: "Negative" | "Neutral" | "Positive";
   confidence: number;
 }
@@ -103,28 +104,11 @@ export default function SubredditSentimentForm() {
             isLoading={isSubmitting}
             type="submit"
           >
-            Submit
+            Get Sentiment
           </Button>
         </Flex>
       </form>
-      <Flex
-        px={16}
-        py={8}
-        justifyContent={"center"}
-        textAlign={"center"}
-        flexDirection={"column"}
-      >
-        {sentimentState ? (
-          <>
-            <p>Sentiment: {sentimentState.sentiment}</p>
-            <p>Confidence: {sentimentState.confidence}</p>
-          </>
-        ) : (
-          <>
-            <p>Please submit a subreddit to get its current sentiment!</p>
-          </>
-        )}
-      </Flex>
+      <SentimentResult sentimentState={sentimentState}></SentimentResult>
     </>
   );
 }
