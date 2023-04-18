@@ -5,6 +5,7 @@ SPDX-License-Identifier: MIT-0
 
 import json
 import praw
+import os
 
 from transformers import pipeline, AutoTokenizer
 from collections import Counter
@@ -61,9 +62,9 @@ def handler(event, context):
     
     # initialize praw
     reddit = praw.Reddit(
-        client_id = 'insert_client_id',
-        client_secret = 'insert_secret_key',
-        user_agent = 'insert_user_agent'
+    client_id=os.environ['REDDIT_CLIENT_ID'],
+    client_secret=os.environ['REDDIT_CLIENT_SECRET'],
+    user_agent=os.enviroN['REDDIT_USER_AGENT']
     )
     
     # Send a raw API request to reddit to fetch the 25 hottest 
@@ -72,9 +73,7 @@ def handler(event, context):
         headings.append(submission.title)
         
     # running model on each heading
-    model_result = []
-    for topic in headings:
-        model_result.append(nlp_pipeline(topic)[0])
+    model_result = nlp_pipeline(headings)
     
     # find most common label
     label_counts = Counter(heading['label'] for heading in model_result)
