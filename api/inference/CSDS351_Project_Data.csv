@@ -1,0 +1,626 @@
+id,lead_time,created_at,annotation_id,updated_at,annotator,text,sentiment
+1,4.099,2023-04-17T20:28:37.717121Z,1,2023-04-17T20:28:37.717121Z,1,Animals defecating fornicating and playing are engaging in normal animal behavior,Positive
+2,6.955,2023-04-17T20:28:47.965052Z,2,2023-04-17T20:28:47.965052Z,1,“I regret nothing! Do hear me? Nothing!”,Positive
+3,72.969,2023-04-17T20:30:02.731720Z,3,2023-04-17T20:30:02.731720Z,1,It just wanted to be a part of them,Negative
+4,76.022,2023-04-17T20:31:57.141959Z,4,2023-04-17T20:31:57.141959Z,1,feed me or i press enter,Negative
+5,4.724,2023-04-17T20:32:03.954674Z,5,2023-04-17T20:32:03.954674Z,1,They call him Gordie.,Neutral
+6,7.388,2023-04-17T20:32:13.638034Z,6,2023-04-17T20:32:13.638034Z,1,Our AirBnB hosts had decorated and hidden many Easter eggs around the garden. This asshole (Raffaello) decided to find them all and smash them.,Negative
+7,5.727,2023-04-17T20:32:22.118573Z,7,2023-04-17T20:32:22.118573Z,1,At least didn't bite the hand that feeds him,Positive
+8,97.701,2023-04-17T20:34:02.181730Z,8,2023-04-17T20:34:02.181730Z,1,Lemme pet this horse real quick,Positive
+9,2.475,2023-04-17T20:34:06.264686Z,9,2023-04-17T20:34:06.264686Z,1,Cats are Aholes,Negative
+10,79.295,2023-04-17T20:35:56.136154Z,10,2023-04-17T20:35:56.136154Z,1,You didn't see nothin'.,Negative
+11,96.408,2023-04-17T20:37:34.679588Z,11,2023-04-17T20:37:34.679588Z,1,Stealing the dog food!,Negative
+12,5.132,2023-04-17T20:37:40.120449Z,12,2023-04-17T20:37:50.243944Z,1,Goats,Neutral
+13,3.906,2023-04-17T20:37:45.711964Z,13,2023-04-17T20:37:45.711964Z,1,Pay attention to me!!,Positive
+14,110.655,2023-04-17T20:39:43.124145Z,14,2023-04-17T20:39:43.124145Z,1,Siblings amirite?,Neutral
+15,46.132,2023-04-17T20:40:48.154345Z,15,2023-04-17T20:40:48.154345Z,1,Slow motion duel,Neutral
+16,6.98,2023-04-17T20:40:55.573928Z,16,2023-04-17T20:40:55.573928Z,1,Paranormal cativity,Positive
+17,5.504,2023-04-17T20:41:01.523175Z,17,2023-04-17T20:41:01.523175Z,1,Lil man couldnt wait a few more hours for breakfast and knocked the bag of food on the floor,Negative
+18,15.231,2023-04-17T20:41:17.192262Z,18,2023-04-17T20:41:17.192262Z,1,Trying to sleep after a night shift and Thor kept biting my toes and waking me up because I was in bed during the day against his wishes!,Negative
+19,7.902,2023-04-17T20:41:25.530898Z,19,2023-04-17T20:41:25.530898Z,1,Luna taunts Olive until she gives up the heating pad on the couch.,Negative
+20,9.653,2023-04-17T20:41:35.656220Z,20,2023-04-17T20:41:35.656220Z,1,To snatch a phone,Negative
+21,4.493,2023-04-17T20:41:40.619695Z,21,2023-04-17T20:41:40.619695Z,1,Friendship in progress,Positive
+22,25.995,2023-04-17T20:42:07.087275Z,22,2023-04-17T20:42:07.087275Z,1,Totally wasn’t me,Negative
+23,119.809,2023-04-17T20:44:07.320719Z,23,2023-04-17T20:44:07.320719Z,1,Guess I’m not practicing,Negative
+24,6.398,2023-04-17T20:44:14.185096Z,24,2023-04-17T20:44:14.185096Z,1,Vandalism,Negative
+25,50.038,2023-04-17T20:45:04.677995Z,25,2023-04-17T20:45:04.677995Z,1,Violent cuddles lol,Positive
+26,59.161,2023-04-17T20:46:04.282853Z,26,2023-04-17T20:46:04.282853Z,1,🔥🐘🐍🐡 User Flair now available on Sidebar: choose from over 100 nature-themed emojis 🐝🐅🐋🔥,Positive
+27,7.543,2023-04-17T20:46:12.257383Z,27,2023-04-17T20:46:12.257383Z,1,🔥 A Mason Bee collects dry grass stalks to build a nest dubbed the 'Witch Bee',Neutral
+28,6.938,2023-04-17T20:46:19.651544Z,28,2023-04-17T20:46:19.651544Z,1,🔥Ecuadorian Hillstar📸: Javier Zurita,Positive
+29,142.36,2023-04-17T20:48:42.657967Z,29,2023-04-17T20:48:42.657967Z,1,🔥 This is what a whale shark's eyes look like. (Closeup shot Gulf of California),Positive
+30,5.099,2023-04-17T20:48:48.185019Z,30,2023-04-17T20:48:48.185019Z,1,🔥The Hauntingly Beautiful Indian Pipe Flower🔥,Positive
+31,6.538,2023-04-17T20:48:55.154442Z,31,2023-04-17T20:48:55.154442Z,1,🔥 snow leopards having an air fight 🔥,Positive
+32,13.79,2023-04-17T20:49:09.377624Z,32,2023-04-17T20:49:09.377624Z,1,🔥 A wolf and its raven friends. It's known that wolves and ravens have a special relationship whereby the birds aid the wolves in finding prey/carcasses. In various cultures ravens are regarded as “wolf birds”,Neutral
+33,6.073,2023-04-17T20:49:15.877541Z,33,2023-04-17T20:49:15.877541Z,1,🔥 Anna’s hummingbird,Neutral
+34,5.688,2023-04-17T20:49:21.998812Z,34,2023-04-17T20:49:21.998812Z,1,🔥 These 2 Elk squaring up before a fight (China),Negative
+35,4.277,2023-04-17T20:49:26.704684Z,35,2023-04-17T20:49:26.704684Z,1,🔥Image of Uranus taken by NASA's James Webb telescope,Positive
+36,3.962,2023-04-17T20:49:31.098901Z,36,2023-04-17T20:49:31.098901Z,1,🔥Brave warthog tries to fight back an attacking lion before getting overpowered in the end,Negative
+37,4.485,2023-04-17T20:49:36.036521Z,37,2023-04-17T20:49:36.036521Z,1,🔥 Bulimba Creek South East Queensland (Photo : Jeff Woolaston),Neutral
+38,6.388,2023-04-17T20:49:42.878941Z,38,2023-04-17T20:49:42.878941Z,1,🔥 Beautiful Caracal kitten 🔥,Positive
+39,7.217,2023-04-17T20:49:50.527786Z,39,2023-04-17T20:49:50.527786Z,1,🔥 Extremely rare black tigers have been captured strolling around the Nandankanan National Park in India,Negative
+40,4.732,2023-04-17T20:49:55.678153Z,40,2023-04-17T20:49:55.678153Z,1,🔥 A rare black panther seen in Laikipia Kenya. It first appeared in the area 18 months ago.,Positive
+41,3.835,2023-04-17T20:49:59.945393Z,41,2023-04-17T20:49:59.945393Z,1,🔥 First time ever seeing a jellyfish like this!,Positive
+42,6.378,2023-04-17T20:50:06.742894Z,42,2023-04-17T20:50:06.742894Z,1,🔥kingfisher dive! 📸 Gunarto Dong,Neutral
+43,8.072,2023-04-17T20:50:15.245294Z,43,2023-04-17T20:50:15.245294Z,1,🔥raw beauty of nature in Ireland,Positive
+44,58.577,2023-04-17T20:51:14.275958Z,44,2023-04-17T20:51:14.275958Z,1,🔥 The seed pods to a poinsettia flower,Neutral
+45,221.059,2023-04-17T20:54:56.091436Z,45,2023-04-17T20:54:56.091436Z,1,"🔥""Your shadow is your best friend"" by Shaaz Jung. This clip shows Saya and Cleo in perfect synchrony. Captured on assignment with NatGeoWild.",Neutral
+46,3.504,2023-04-17T20:55:00.041849Z,46,2023-04-17T20:55:00.041849Z,1,🔥 Eastern Rosella Australia (Photo : Kellie Underwood),Neutral
+47,6.153,2023-04-17T20:55:06.647359Z,47,2023-04-17T20:55:06.647359Z,1,🔥 Giant Phantom Jellyfish,Neutral
+48,12.128,2023-04-17T20:55:19.224964Z,48,2023-04-17T20:55:19.224964Z,1,🔥 Lake Erskine Fiordland New Zealand 🔥,Neutral
+49,21.453,2023-04-17T20:55:41.124670Z,49,2023-04-17T20:55:41.124670Z,1,🔥 Tiny spider with nice catch outside my workplace.,Positive
+50,4.733,2023-04-17T20:55:46.289830Z,50,2023-04-17T20:55:46.289830Z,1,🔥 Three hungry baby Pileated Woodpeckers calling for their mother,Negative
+51,14.365,2023-04-17T20:56:01.072920Z,51,2023-04-17T20:56:01.072920Z,1,Weekly r/Tattoos Question/FreeTalk Thread! - April 03 2023,Neutral
+52,79.414,2023-04-17T20:57:20.944211Z,52,2023-04-17T20:57:20.944211Z,1,Wizard frog by Ruth Callaway at Birdhouse Tattoo in Portland OR,Neutral
+53,4.636,2023-04-17T20:57:26.021635Z,53,2023-04-17T20:57:26.021635Z,1,C&H - done by Kaitlyn Brebner of Gnomeshow Tattoos in Forest Park IL,Neutral
+54,5.071,2023-04-17T20:57:31.500275Z,54,2023-04-17T20:57:31.500275Z,1,My first tattoo! Done by Vincent at New Life Tattoos Champaign IL,Positive
+55,4.232,2023-04-17T20:57:36.192199Z,55,2023-04-17T20:57:36.192199Z,1,Back tattoo by Constantin Zaits at Auraninetyfour - London,Neutral
+56,8.443,2023-04-17T20:57:45.110352Z,56,2023-04-17T20:57:45.110352Z,1,Single needle palm tree by Aimee at Supersweet Tattoos & Coffee in Los Angeles,Neutral
+57,4.741,2023-04-17T20:57:50.202346Z,57,2023-04-17T20:57:50.202346Z,1,Koi fish (Zodiac sign) as Ying Yang by Hania Hania Tattoo studio CZ,Positive
+58,11.515,2023-04-17T20:58:02.088906Z,58,2023-04-17T20:58:02.088906Z,1,Gandalf the grey- done by Anthony Kessinger at tried and true in front royal va,Positive
+59,10.535,2023-04-17T20:58:13.012993Z,59,2023-04-17T20:58:13.012993Z,1,Braviary by Devon Blue of Old School Tattoo. Bellingham WA,Positive
+60,7.751,2023-04-17T20:58:21.146946Z,60,2023-04-17T20:58:21.146946Z,1,Tattoo with my sister by Victor at Rites of Passage Tattoo - Saskatoon SK,Neutral
+61,23.138,2023-04-17T20:58:44.687498Z,61,2023-04-17T20:58:44.687498Z,1,Just got this done by Lauren at S’Moores ink in Dallas!,Positive
+62,39.128,2023-04-17T20:59:24.224175Z,62,2023-04-17T20:59:24.224175Z,1,Chest piece by Kelly Smith at Cry Baby Tattoo in Sheffield UK,Neutral
+63,62.264,2023-04-17T21:00:26.871203Z,63,2023-04-17T21:00:26.871203Z,1,Fresh new Candle done by Justin at Gypsy skull tattoo in Hanover Pennsylvania,Positive
+64,139.009,2023-04-17T21:02:46.328208Z,64,2023-04-17T21:02:46.328208Z,1,Hon tattoo Toronto Canada abstract symmetrical black by youngdam,Neutral
+65,7.408,2023-04-17T21:02:54.192024Z,65,2023-04-17T21:02:54.193020Z,1,Charmander by Chandler Roe of Sogen Tattoo in Redding CA,Neutral
+66,3.903,2023-04-17T21:02:58.535108Z,66,2023-04-17T21:02:58.535108Z,1,Shrimp - done by Soia at Zmierzloki Tattoo Katowice Poland,Neutral
+67,5.721,2023-04-17T21:03:04.708137Z,67,2023-04-17T21:03:04.708137Z,1,Tattoo by artist Ash owner of Bluebird Tattoo Studio in Dallas Texas!!,Positive
+68,3.983,2023-04-17T21:03:09.109462Z,68,2023-04-17T21:03:09.109462Z,1,I love ridiculous things By Sarah Main Street Tattoo Greenville sc,Positive
+69,5.088,2023-04-17T21:03:14.644865Z,69,2023-04-17T21:03:14.644865Z,1,fully healed snake & skull (done by kaleb at monkey fist tattoo in denver),Positive
+70,2.777,2023-04-17T21:03:17.853757Z,70,2023-04-17T21:03:17.853757Z,1,Sea Turtle b Joe at Millennium in Fort Collins CO,Neutral
+71,4.705,2023-04-17T21:03:23.022494Z,71,2023-04-17T21:03:23.022494Z,1,Seraph Angel / Burning One - 2 dot crew tattoo Clarksville TN(Ryan),Negative
+72,441.248,2023-04-17T21:10:45.018035Z,72,2023-04-17T21:10:45.018035Z,1,Animal Crossing balloon by Angell Gabriella at Itaitattoo The Hague NL,Positive
+73,4.071,2023-04-17T21:10:49.530514Z,73,2023-04-17T21:10:49.530514Z,1,7in P.Metallica tarantula on my hip by Troll at Velvet Rose in Helena MT.,Neutral
+74,9.826,2023-04-17T21:10:59.797320Z,74,2023-04-17T21:10:59.797320Z,1,*nerd alert* Done by Sam at Zebz Swansea Wales,Negative
+75,7.829,2023-04-17T21:11:08.075077Z,75,2023-04-17T21:11:08.075077Z,1,Done by Shy’Tan. At Quadri Latera tattoo shop. In France.,Neutral
+76,8.552,2023-04-17T21:11:17.078423Z,76,2023-04-17T21:11:17.078423Z,1,MRW I'm trying to avoid being seen by an old coworker just as she spots me,Negative
+77,40.439,2023-04-17T21:11:57.954948Z,77,2023-04-17T21:11:57.954948Z,1,MRW im a supreme court judge and get told its actually against the rules to accept luxury gifts and trips from billionaires/lobbyists,Negative
+78,9.115,2023-04-17T21:12:07.462559Z,78,2023-04-17T21:12:07.462559Z,1,MRW the customer service rep asks if there's anything else she can do for me...and she does mean a-ny-thing,Positive
+79,4.689,2023-04-17T21:12:12.615269Z,79,2023-04-17T21:12:12.615269Z,1,MRW I smuggle in my vape pen to the Boy Scouts retreat,Negative
+80,54.388,2023-04-17T21:13:07.441785Z,80,2023-04-17T21:13:07.441785Z,1,MRW my boss leaves early and I'm going to leave as soon as he's out of sight,Positive
+81,12.67,2023-04-17T21:13:20.532944Z,81,2023-04-17T21:13:20.532944Z,1,MRW seeing Japanese pancakes for the first time in person,Positive
+82,41.004,2023-04-17T21:14:01.981362Z,82,2023-04-17T21:14:01.981362Z,1,MRW I have no hands and my friends with hands invite me out,Negative
+83,5.708,2023-04-17T21:14:08.161616Z,83,2023-04-17T21:14:08.161616Z,1,MRW when I see the thermostat at 69°,Positive
+84,4.21,2023-04-17T21:14:12.829864Z,84,2023-04-17T21:14:12.829864Z,1,MRW I'm Told There are 16 Callers Ahead of Me Please Stay on the Line,Negative
+85,7.916,2023-04-17T21:14:21.195512Z,85,2023-04-17T21:14:21.195512Z,1,MRW someone asks what my record in a day is,Positive
+86,16.223,2023-04-17T21:14:37.881463Z,86,2023-04-17T21:14:37.881463Z,1,MRW I try to put on my summer pants after bulking all winter,Negative
+87,8.538,2023-04-17T21:14:46.847240Z,87,2023-04-17T21:14:46.847240Z,1,MRW people fight in my room decked out in God of War merchandise,Positive
+88,14.014,2023-04-17T21:15:01.284643Z,88,2023-04-17T21:15:01.284643Z,1,MRW I come home from work and my dog is even cuter than when I left him that morning.,Positive
+89,6.275,2023-04-17T21:15:08.020441Z,89,2023-04-17T21:15:08.020441Z,1,MRW My teen starts doing chores without being asked,Positive
+90,15.987,2023-04-17T21:15:24.455345Z,90,2023-04-17T21:15:24.455345Z,1,MRW a news report came out about how I accepted bribes and people upset about this won’t even call their Representatives to support an investigation into my corruption,Negative
+91,6.578,2023-04-17T21:15:31.496714Z,91,2023-04-17T21:15:31.496714Z,1,"MRW My boss asks us to put in unpaid extra time to ""help the team.""",Negative
+92,8.055,2023-04-17T21:15:39.993404Z,92,2023-04-17T21:15:39.993404Z,1,MRW I watch an incredible curling shot video and have no idea why it was incredible,Neutral
+93,5.467,2023-04-17T21:15:45.934383Z,93,2023-04-17T21:15:45.934383Z,1,MRW I'm Marjorie Taylor Greene and I'm getting ready to own the libs,Negative
+94,27.902,2023-04-17T21:16:14.269679Z,94,2023-04-17T21:16:14.270679Z,1,MRW I hear Trump complain about the indictment and all the other lawsuits hanging over his head,Negative
+95,4.948,2023-04-17T21:16:19.669346Z,95,2023-04-17T21:16:19.669346Z,1,MRW my wife is trying to tell me about the reviews for The Super Mario Bros. Movie,Neutral
+96,4.384,2023-04-17T21:16:24.502631Z,96,2023-04-17T21:16:24.502631Z,1,MRW when I'm slightly inconvenienced,Negative
+97,4.04,2023-04-17T21:16:29.007080Z,97,2023-04-17T21:16:29.007080Z,1,MRW I hear Google is cutting back on staplers,Negative
+98,7.725,2023-04-17T21:16:37.183467Z,98,2023-04-17T21:16:37.183467Z,1,"MRW I'm on a first date and we're talking about how we got through the pandemic and they say ""Well Bill Gates...""",Positive
+99,4.192,2023-04-17T21:16:41.837597Z,99,2023-04-17T21:16:41.837597Z,1,MRW she's got a kink for the Kool-Aid Man,Negative
+100,4234.963,2023-04-17T22:27:17.586409Z,100,2023-04-17T22:27:17.586409Z,1,MRW no one else showed up to protest the indictment,Neutral
+101,65.636,2023-04-17T22:28:23.712673Z,101,2023-04-17T22:28:23.712673Z,1,Crochet blanket my MIL made for my wife,Neutral
+102,4.648,2023-04-17T22:28:28.815432Z,102,2023-04-17T22:28:28.815432Z,1,Yeah no shit,Negative
+103,3.634,2023-04-17T22:28:32.914523Z,103,2023-04-17T22:28:32.914523Z,1,Red wedding,Negative
+104,4.222,2023-04-17T22:28:37.573510Z,104,2023-04-17T22:28:37.573510Z,1,Real life moon door.,Neutral
+105,7.555,2023-04-17T22:28:45.565245Z,105,2023-04-17T22:28:45.565245Z,1,[NO SPOILERS] Melisandre cosplay by me (Maria Muller),Neutral
+106,7.512,2023-04-17T22:28:53.528528Z,106,2023-04-17T22:28:53.528528Z,1,Why did they put Jon’s body in a heated room next to a fireplace? Thats such a bad idea,Negative
+107,3.958,2023-04-17T22:28:57.940070Z,107,2023-04-17T22:28:57.940070Z,1,Most brutal Game of Thrones fight imo,Negative
+108,7.988,2023-04-17T22:29:06.312295Z,108,2023-04-17T22:29:06.312295Z,1,My MS Paint study of Tyrion / Painting time-lapse in the comments,Neutral
+109,23.48,2023-04-17T22:29:30.212283Z,109,2023-04-17T22:29:30.212283Z,1,Khal Drogo fan art !! Please tell me if you like it,Positive
+110,5.498,2023-04-17T22:29:36.177137Z,110,2023-04-17T22:29:36.177137Z,1,The Mother of Dachshunds,Neutral
+111,6.074,2023-04-17T22:29:42.706227Z,111,2023-04-17T22:29:42.706227Z,1,One of the most satisfying scenes :),Positive
+112,5.091,2023-04-17T22:29:48.214592Z,112,2023-04-17T22:29:48.214592Z,1,Some new background for the Night King.,Neutral
+113,6.592,2023-04-17T22:29:55.263806Z,113,2023-04-17T22:29:55.263806Z,1,It is not exactly POV since Tyrion does not look directly in the camera but you get the Idea. Anyway I am curious about your solution.,Neutral
+114,291.554,2023-04-17T22:34:47.238847Z,114,2023-04-17T22:34:47.238847Z,1,Detail: When Littlerfinger is telling Sansa about his involvement in Joffrey’s death he says “nothing like a thoughtful gift to make a new friendship grow strong”. The co-conspirators being the Tyrell’s whose words are ‘Growing Strong’.,Positive
+115,3.397,2023-04-17T22:34:50.808718Z,115,2023-04-17T22:34:50.808718Z,1,Favourite pairs,Neutral
+116,4.445,2023-04-17T22:34:55.437164Z,116,2023-04-17T22:34:55.437164Z,1,Why did they never release this soundtrack? It's one of the best ones! ,Positive
+117,5.061,2023-04-17T22:35:00.671544Z,117,2023-04-17T22:35:00.671544Z,1,Is this real?,Neutral
+118,125.484,2023-04-17T22:37:06.339065Z,118,2023-04-17T22:37:06.339065Z,1,Whats the point of no return for the Lord of Light when it comes to resurrection? Decapitation?,Neutral
+119,6.834,2023-04-17T22:37:13.358823Z,119,2023-04-17T22:37:13.358823Z,1,Looks great hanging on wall.,Positive
+120,10.481,2023-04-17T22:37:24.049517Z,120,2023-04-17T22:37:24.049517Z,1,Which crack ship with Robb do you prefer? Robb & Daenerys or Robb and Margaery?,Neutral
+121,6.397,2023-04-17T22:37:30.662830Z,121,2023-04-17T22:37:30.662830Z,1,Do second third sons etc really inherit nothing?,Neutral
+122,4.459,2023-04-17T22:37:35.311013Z,122,2023-04-17T22:37:35.311013Z,1,Who was your favorite duo from the show and why?,Neutral
+123,81.247,2023-04-17T22:38:53.325873Z,123,2023-04-17T22:39:05.988390Z,1,Rewatching with first time watchers and made a GOT character cheat sheet!! (some pics are spoilers),Positive
+124,3.865,2023-04-17T22:38:57.385980Z,124,2023-04-17T22:38:57.385980Z,1,Watching it a second time,Positive
+125,5.052,2023-04-17T22:39:19.393790Z,125,2023-04-17T22:39:19.393790Z,1,Season 4 tyrion and shea is the saddest part of this whole show for me.,Negative
+126,8.085,2023-04-17T22:39:27.739125Z,126,2023-04-17T22:39:27.739125Z,1,Reminder: When you add the recipe to your post don't forget to add it in plain text as well. If you only add a URL your comment will be removed.,Neutral
+127,132.933,2023-04-17T22:41:40.881712Z,127,2023-04-17T22:41:40.881712Z,1,[MOD PSA] We are asking for your opinions on the quality of content for this community! Details below…,Positive
+128,3.272,2023-04-17T22:41:44.363807Z,128,2023-04-17T22:41:44.363807Z,1,Ham and Cheese Omelet with Potatoes,Neutral
+129,2.983,2023-04-17T22:41:47.545609Z,129,2023-04-17T22:41:47.545609Z,1,Homemade: Sour dough vanilla pudding cake Earl grey custard ice cream berries,Neutral
+130,3.843,2023-04-17T22:41:51.569200Z,130,2023-04-17T22:41:51.569200Z,1,[OC] Buttermilk Fried Chicken with Garlic Mashed Potatoes and Cheddar Biscuits,Neutral
+131,2.428,2023-04-17T22:41:54.182272Z,131,2023-04-17T22:41:54.182272Z,1,Dark Chocolate Babka,Neutral
+132,2.954,2023-04-17T22:42:06.760763Z,132,2023-04-17T22:42:06.760763Z,1,[i ate] French dip with crunchy French fries,Positive
+133,4.537,2023-04-17T22:42:11.504051Z,133,2023-04-17T22:42:11.504051Z,1,Voted “Best Taco in the World”. Rosarito Beach Baja CA Mexico,Positive
+134,5.381,2023-04-17T22:42:17.087947Z,134,2023-04-17T22:42:17.087947Z,1,I ate Ramen,Positive
+135,5.352,2023-04-17T22:42:22.638348Z,135,2023-04-17T22:42:22.638348Z,1,Chicken Tender,Neutral
+136,3.14,2023-04-17T22:42:25.964266Z,136,2023-04-17T22:42:25.964266Z,1,Marcella Hazan’s tomato sauce with bucatini and meatballs,Neutral
+137,7.585,2023-04-17T22:42:33.723898Z,137,2023-04-17T22:42:33.723898Z,1,3rd time making grilled cheese and I think I did decent:),Positive
+138,3.104,2023-04-17T22:42:37.018289Z,138,2023-04-17T22:42:37.018289Z,1,Prime Rib,Neutral
+139,4.951,2023-04-17T22:42:42.190743Z,139,2023-04-17T22:42:42.190743Z,1,After bartending all everything...I needed a Reuben sandwich. Luckily I live in a beautiful city that provides such things late-night.,Positive
+140,3.991,2023-04-17T22:42:46.372048Z,140,2023-04-17T22:42:46.372048Z,1,Simple Grilled Cheese Sandwich,Positive
+141,29.018,2023-04-17T22:43:15.579364Z,141,2023-04-17T22:43:15.579364Z,1,[OC] Friend said I should start posting here. Fijian Lamb Curry Chicken Korma Raita and Chilli Pickle,Neutral
+142,3.854,2023-04-17T22:43:19.649187Z,142,2023-04-17T22:43:19.649187Z,1,Fancy breakfast I made for myself (OC),Positive
+143,3.966,2023-04-17T22:43:23.838271Z,143,2023-04-17T22:43:23.838271Z,1,Pancakes from an Istanbul Style Brunch spot. Topped with Tahini Helva Sour Cherry Jam and pistachios.,Neutral
+144,4.855,2023-04-17T22:43:28.898762Z,144,2023-04-17T22:43:28.898762Z,1,Reverse seared ribeye steak with spicy chimichurri and loaded baked potato,Positive
+145,3.86,2023-04-17T22:43:32.959261Z,145,2023-04-17T22:43:32.959261Z,1,Purchased a Waffle Stuffer! 🧇&🫐,Positive
+146,6.734,2023-04-17T22:43:39.891133Z,146,2023-04-17T22:43:39.891133Z,1,Avocado toast with spicy honey baked sweet potato fried egg and crispy kale,Positive
+147,3.499,2023-04-17T22:43:43.567731Z,147,2023-04-17T22:43:43.567731Z,1,I made a steak and chimichurri sandwich,Neutral
+148,4.9,2023-04-17T22:43:48.661071Z,148,2023-04-17T22:43:48.661071Z,1,I baked a cookies and cream cartoon cake,Neutral
+149,4.023,2023-04-17T22:43:53.132122Z,149,2023-04-17T22:43:53.132122Z,1,Homemade Chocolate Pudding (with whipped cream of course!),Positive
+150,16.837,2023-04-17T22:44:10.173306Z,150,2023-04-17T22:44:10.173306Z,1,Homemade veggie black bean enchiladas.,Neutral
+151,4.996,2023-04-17T22:44:15.372658Z,151,2023-04-17T22:44:15.372658Z,1,Jumping Off a Cliff ,Negative
+152,3.329,2023-04-17T22:44:18.901754Z,152,2023-04-17T22:44:18.901754Z,1,Ended better than expected.,Positive
+153,6.537,2023-04-17T22:44:25.641501Z,153,2023-04-17T22:44:25.641501Z,1,WCGW thinking you are quicker than a NFL Football Team,Negative
+154,7.489,2023-04-17T22:44:33.325184Z,154,2023-04-17T22:44:33.325184Z,1,WCGW performing a trick on a moving bus as Spider-Man,Positive
+155,5.875,2023-04-17T22:44:39.408228Z,155,2023-04-17T22:44:39.409263Z,1,WCGW doing back flip,Positive
+156,48.086,2023-04-17T22:45:27.673478Z,156,2023-04-17T22:45:27.673478Z,1,WCGW overloading a baby swing near an open fire,Negative
+157,3.43,2023-04-17T22:45:31.304818Z,157,2023-04-17T22:45:31.304818Z,1,WCGW Not Looking Where You're Going,Negative
+158,2.95,2023-04-17T22:45:34.441664Z,158,2023-04-17T22:45:34.442664Z,1,Tragedy in Taiwanese Crowd Yesterday,Negative
+159,2.379,2023-04-17T22:45:37.004956Z,159,2023-04-17T22:45:37.004956Z,1,WCGW Playing With Fire,Negative
+160,2.623,2023-04-17T22:45:39.839436Z,160,2023-04-17T22:45:39.839436Z,1,Playing with a cat,Positive
+161,12.19,2023-04-17T22:45:52.207884Z,161,2023-04-17T22:45:52.207884Z,1,WCGW building a teeny tiny stage to hold so many protestors.,Negative
+162,14.644,2023-04-17T22:46:07.026568Z,162,2023-04-17T22:46:07.026568Z,1,Son of hockey star breaks student's wheelchair. Charges filed and kicked from college team.,Negative
+163,4.963,2023-04-17T22:46:12.169263Z,163,2023-04-17T22:46:12.169263Z,1,wcgw taking a shot with flames,Negative
+164,3.544,2023-04-17T22:46:15.895560Z,164,2023-04-17T22:46:15.895560Z,1,WCGW driving full speed through an intersection,Negative
+165,60.164,2023-04-17T22:47:16.261333Z,165,2023-04-17T22:47:16.261333Z,1,Pulling up some plants…,Neutral
+166,3.582,2023-04-17T22:47:20.150741Z,166,2023-04-17T22:47:20.150741Z,1,Standing on a motorcycle,Positive
+167,5.059,2023-04-17T22:47:25.426461Z,167,2023-04-17T22:47:25.426461Z,1,WCGW driving through a tornado?,Negative
+168,15.535,2023-04-17T22:47:41.164984Z,168,2023-04-17T22:47:41.164984Z,1,Kid crashes a brand new stock supra trying to show off at a car meet. Kid had told everyone it was his car it was a loaned dealership car. Don’t be this kid 😬,Negative
+169,3.781,2023-04-17T22:47:45.180759Z,169,2023-04-17T22:47:45.180759Z,1,Speeding into a cluster of parked cars,Negative
+170,7.604,2023-04-17T22:47:52.972043Z,170,2023-04-17T22:47:52.972043Z,1,living your WWE fantasy,Positive
+171,1.508,2023-04-17T22:48:01.970680Z,172,2023-04-17T22:48:01.970680Z,1,Jumping on your buddies.,Positive
+172,9.38,2023-04-17T22:48:11.529882Z,173,2023-04-17T22:48:11.529882Z,1,Muslim restaurant in Xining Qinghai. This restaurant must prepare enough plates.,Neutral
+173,4.34,2023-04-17T22:48:16.072177Z,174,2023-04-17T22:48:16.072177Z,1,Drifting for the police,Negative
+174,104.977,2023-04-17T22:50:01.258680Z,175,2023-04-17T22:50:01.258680Z,1,Pulling a sign down WCGW?,Negative
+175,8.76,2023-04-17T22:50:10.208511Z,176,2023-04-17T22:50:10.208511Z,1,I guess he didn't learn the first time...,Negative
+176,5.831,2023-04-17T22:50:16.228305Z,177,2023-04-17T22:50:16.228305Z,1,Mod Spring Break Conclusion Thread,Neutral
+177,50.817,2023-04-17T22:51:07.259786Z,178,2023-04-17T22:51:07.259786Z,1,➡️ Daily Questions ⬅️- ASK AND ANSWER HERE! - 8 April 2023,Neutral
+178,3.427,2023-04-17T22:51:10.864795Z,179,2023-04-17T22:51:10.864795Z,1,Monitaly Spring/Summer 2023,Neutral
+179,3.691,2023-04-17T22:51:14.733952Z,180,2023-04-17T22:51:14.733952Z,1,Top Down / Aerial / Crotch Shot WAYWT,Negative
+180,3.14,2023-04-17T22:51:18.063464Z,181,2023-04-17T22:51:18.063464Z,1,Off-Topic Discussion Thread - 8 April 2023,Neutral
+181,3.819,2023-04-17T22:51:22.109172Z,182,2023-04-17T22:51:22.109172Z,1,Can Yohji Yamamoto Save Fashion From Itself?,Neutral
+182,2.201,2023-04-17T22:51:24.534582Z,183,2023-04-17T22:51:24.534582Z,1,WAYWT - 7 April 2023,Neutral
+183,3.536,2023-04-17T22:51:28.262790Z,184,2023-04-17T22:51:28.262790Z,1,➡️ Daily Questions ⬅️- ASK AND ANSWER HERE! - 7 April 2023,Neutral
+184,2.501,2023-04-17T22:51:30.952452Z,185,2023-04-17T22:51:30.952452Z,1,Off-Topic Discussion Thread - 7 April 2023,Neutral
+185,241.092,2023-04-17T22:55:32.237427Z,186,2023-04-17T22:55:32.238430Z,1,Any idea on where to find shorts in this mesh + floral/printed style in an 8” inseam?,Neutral
+186,3.57,2023-04-17T22:55:36.089637Z,187,2023-04-17T22:55:36.089637Z,1,Icon : The Oxford Cloth Button-Down,Neutral
+187,38.062,2023-04-17T22:56:14.353787Z,188,2023-04-17T22:56:14.353787Z,1,Sole Survivors: How the Internet is Saving Bespoke Shoemaking (Pt 2) — Die Workwear!,Positive
+188,4.014,2023-04-17T22:56:18.587040Z,189,2023-04-17T22:56:18.587040Z,1,Top of WAYWT - March 2023,Neutral
+189,7.723,2023-04-17T22:56:26.517434Z,190,2023-04-17T22:56:26.517434Z,1,Skinny Jeans Skinny Pants & Leggings Are Back in For Fall 2023,Positive
+190,3.672,2023-04-17T22:56:30.403034Z,191,2023-04-17T22:56:30.403034Z,1,Off-Topic Discussion Thread - 6 April 2023,Neutral
+191,43.879,2023-04-17T22:57:14.496824Z,192,2023-04-17T22:57:14.496824Z,1,➡️ Daily Questions ⬅️- ASK AND ANSWER HERE! - 6 April 2023,Neutral
+192,22.531,2023-04-17T22:57:37.226563Z,193,2023-04-17T22:57:37.226563Z,1,Hunting for Treasure with Intramural’s Bijan Shahvali -Drakes,Positive
+193,9.941,2023-04-17T22:57:47.370579Z,194,2023-04-17T22:57:47.370579Z,1,Monthly WDYWT? (Why Did You Wear That?),Negative
+194,2.503,2023-04-17T22:57:50.092380Z,195,2023-04-17T22:57:50.092380Z,1,Weekly Inspiration Thread - 5 April 2023,Neutral
+195,2.629,2023-04-17T22:57:52.921544Z,196,2023-04-17T22:57:52.921544Z,1,WAYWT - 5 April 2023,Neutral
+196,4.852,2023-04-17T22:57:57.974162Z,197,2023-04-17T22:57:57.974162Z,1,Flax London Spring Lookbook,Neutral
+197,2.701,2023-04-17T22:58:00.884356Z,198,2023-04-17T22:58:00.884356Z,1,➡️ Daily Questions ⬅️- ASK AND ANSWER HERE! - 5 April 2023,Neutral
+198,2.105,2023-04-17T22:58:03.207472Z,199,2023-04-17T22:58:03.207472Z,1,Off-Topic Discussion Thread - 5 April 2023,Neutral
+199,2.719,2023-04-17T22:58:06.143107Z,200,2023-04-17T22:58:06.143107Z,1,Recent Purchases - 5 April 2023,Neutral
+200,553.745,2023-04-17T23:07:20.399052Z,201,2023-04-17T23:07:20.399052Z,1,Any place for diagonal/angular styles?,Neutral
+201,3.869,2023-04-17T23:07:24.501279Z,202,2023-04-17T23:07:24.501279Z,1,EU petition to create an open source AI model,Positive
+202,4.388,2023-04-17T23:07:29.161103Z,203,2023-04-17T23:07:29.161103Z,1,GraphQL - From Excitement to Deception,Negative
+203,3.689,2023-04-17T23:07:33.056682Z,204,2023-04-17T23:07:33.056682Z,1,The Evolution of Java,Positive
+204,5.257,2023-04-17T23:07:38.556968Z,205,2023-04-17T23:07:38.556968Z,1,WebAssembly tail calls,Neutral
+205,41.356,2023-04-17T23:08:20.162425Z,206,2023-04-17T23:08:20.162425Z,1,Getting the ^D,Neutral
+206,3.97,2023-04-17T23:08:24.348201Z,207,2023-04-17T23:08:24.348201Z,1,LLVM: The middle-end optimization pipeline,Neutral
+207,3.425,2023-04-17T23:08:27.994625Z,208,2023-04-17T23:08:27.994625Z,1,ChipWits (1984) was programmed in MacFORTH because...,Neutral
+208,5.861,2023-04-17T23:08:34.079930Z,209,2023-04-17T23:08:34.079930Z,1,The OpenAI Cookbook shares example code for accomplishing common tasks with the OpenAI API,Positive
+209,6.464,2023-04-17T23:08:40.793145Z,210,2023-04-17T23:08:40.793145Z,1,Re-creating Midjourney with only $10 – Technical Report for Mann-E 5 development - A Beautiful Mind,Positive
+210,13.696,2023-04-17T23:08:54.699846Z,211,2023-04-17T23:08:54.699846Z,1,Writing a Simple Garbage Collector in C,Neutral
+211,9.112,2023-04-17T23:09:04.027556Z,212,2023-04-17T23:09:04.027556Z,1,Complete guide to JShell: The underrated Java Playground available with JDK 9 onwards,Positive
+212,5.291,2023-04-17T23:09:09.538185Z,213,2023-04-17T23:09:09.538185Z,1,I created an interpreter for AP Computer Science Pseudocode,Positive
+213,2.706,2023-04-17T23:09:12.487807Z,214,2023-04-17T23:09:12.487807Z,1,Harvard University is offering free online courses.,Positive
+214,5.981,2023-04-17T23:09:18.671411Z,215,2023-04-17T23:09:18.671411Z,1,How to Periodically Delete Obsolete Files in Java,Neutral
+215,10.367,2023-04-17T23:09:29.268574Z,216,2023-04-17T23:09:29.268574Z,1,Are your memory-bound benchmarking timings normally distributed?,Neutral
+216,3.515,2023-04-17T23:09:33.024162Z,217,2023-04-17T23:09:33.024162Z,1,Fish Simulation in React,Neutral
+217,4.15,2023-04-17T23:09:37.420154Z,218,2023-04-17T23:09:37.420154Z,1,Flask web app boilerplate creator,Neutral
+218,5.437,2023-04-17T23:09:43.135695Z,219,2023-04-17T23:09:43.135695Z,1,FullStackHero .NET 7 Web API is now released!🔥,Positive
+219,21.708,2023-04-17T23:10:05.142524Z,220,2023-04-17T23:10:05.142524Z,1,I generated racing lines in code and got my RC Car to follow them,Positive
+220,3.775,2023-04-17T23:10:09.155594Z,221,2023-04-17T23:10:09.155594Z,1,Clipboard 0.6.0: The Ridonkulous Update,Positive
+221,3.927,2023-04-17T23:10:13.368963Z,222,2023-04-17T23:10:13.368963Z,1,Watch live Revision 2023 - the biggest demo scene event. WebGL is being used too,Neutral
+222,3.712,2023-04-17T23:10:17.345932Z,223,2023-04-17T23:10:17.345932Z,1,We modified llama.cpp to load weights using mmap() instead of C++ standard I/O. That enabled us to load LLaMA 100x faster using half as much memory.,Neutral
+223,3.974,2023-04-17T23:10:21.522018Z,224,2023-04-17T23:10:21.522018Z,1,Programming in Pairs: The Surprising Advantages You Need to Know,Positive
+224,5.848,2023-04-17T23:10:27.601618Z,225,2023-04-17T23:10:27.601618Z,1,Why are there so many tech layoffs and why should we be worried? Stanford scholar explains,Negative
+225,2.737,2023-04-17T23:10:30.537922Z,226,2023-04-17T23:10:30.537922Z,1,Live Comment System Design,Neutral
+226,4.365,2023-04-17T23:10:35.183351Z,227,2023-04-17T23:10:35.183351Z,1,War in Ukraine Megathread LIII,Negative
+227,3.731,2023-04-17T23:10:39.132717Z,228,2023-04-17T23:10:39.132717Z,1,Centurion a small town in the heart of Sicily Italy,Neutral
+228,35.103,2023-04-17T23:11:14.473861Z,229,2023-04-17T23:11:14.473861Z,1,One year ago Russian striked Kramatorsk train station while people were evacuating killing 61 man woman and children and wounded 121.,Negative
+229,4.182,2023-04-17T23:11:18.903178Z,230,2023-04-17T23:11:18.903178Z,1,The leaning tower of Suurhusen (Ostfriesland Germany) the most leaning tower in the world,Neutral
+230,17.458,2023-04-17T23:11:36.625869Z,231,2023-04-17T23:11:36.625869Z,1,A human made mountain measuring 420 m long 270 m wide 38 m high and elliptical in shape was planted with 11000 trees by 11000 people from all over the world at the Pinziö gravel pits in Finland.,Neutral
+231,5.198,2023-04-17T23:11:42.091618Z,232,2023-04-17T23:11:42.091618Z,1,Romanian F16s intercepting Russian Su27s over the Baltics,Positive
+232,5.815,2023-04-17T23:11:48.123428Z,233,2023-04-17T23:11:48.123428Z,1,Putin mocked after speech met with awkward silence,Positive
+233,68.904,2023-04-17T23:12:57.226331Z,234,2023-04-17T23:12:57.226331Z,1,Turkish election poll from one of the most reputable pollsters,Neutral
+234,57.799,2023-04-17T23:13:55.299484Z,235,2023-04-17T23:13:55.299484Z,1,The Leaning Tower of... Ząbkowice. Unlike the tower in Pisa this tower in Poland is not just leaning it's actually crooked by circa 2 metres. The malformation was probably caused by tectonic shifts several centuries ago.,Neutral
+235,40.466,2023-04-17T23:14:35.986308Z,236,2023-04-17T23:14:35.986308Z,1,Prague is ranked second in the world for best public transport. Berlin came first,Positive
+236,3.523,2023-04-17T23:14:39.739579Z,237,2023-04-17T23:14:39.739579Z,1,Flags of Finland and NATO raised in Helsinki on 4 April 2023.,Neutral
+237,3.799,2023-04-17T23:14:43.764986Z,238,2023-04-17T23:14:43.764986Z,1,Crooked 13th century spire in Chesterfield UK,Neutral
+238,5.01,2023-04-17T23:14:49.021942Z,239,2023-04-17T23:14:49.021942Z,1,Eighty-three years ago today nazi Germany invaded Denmark and Norway (Operation Weserübung).,Negative
+239,51.2,2023-04-17T23:15:40.456137Z,240,2023-04-17T23:15:40.456137Z,1,"Malbork / Marienburg in Poland. The Teuton Knight Order who built it in 1406 proudly said this of their largest brick castle in the world: ""Ex marmore Mediolanum ex lapide Ofen ex luto Marienburg"" - of marble is Milan of stone is Buda of mud is Malbork.",Neutral
+240,35.262,2023-04-17T23:16:15.962628Z,241,2023-04-17T23:16:15.962628Z,1,50 French Rappers will organize a solidarity concert to raise money for labor unions and workers on strike,Positive
+241,8.196,2023-04-17T23:16:24.381946Z,242,2023-04-17T23:16:24.381946Z,1,Alleys of Barcelona in El Raval,Neutral
+242,4.368,2023-04-17T23:16:28.979246Z,243,2023-04-17T23:16:28.979246Z,1,Edinburgh Scotland,Neutral
+243,1329.995,2023-04-17T23:38:39.559779Z,244,2023-04-17T23:38:39.559779Z,1,Adjusting for rising average maternal age fertility rates in developed economies are not quite as low as typically reported,Positive
+244,17.123,2023-04-17T23:38:57.192732Z,245,2023-04-17T23:38:57.192732Z,1,1984' George Orwell's novel of repression tops Russian bestseller lists,Positive
+245,5.571,2023-04-17T23:39:03.220744Z,246,2023-04-17T23:39:03.220744Z,1,Zelensky shares Iftar with Muslim soldiers in 'new tradition of respect',Positive
+246,7.819,2023-04-17T23:39:11.510836Z,247,2023-04-17T23:39:11.510836Z,1,Macron way,Neutral
+247,46.874,2023-04-17T23:39:58.848245Z,248,2023-04-17T23:39:58.848245Z,1,Church of Our Lady before Týn Prague(Czech Republic),Neutral
+248,23.762,2023-04-17T23:40:23.073765Z,249,2023-04-17T23:40:23.073765Z,1,On this day 1904 France and the United Kingdom signed the Entente Cordiale agreeing to a peaceful coexistence after centuries of intermittent conflict.,Positive
+249,19.048,2023-04-17T23:40:42.605153Z,250,2023-04-17T23:40:42.605153Z,1,Quiet street in Bucharest,Neutral
+250,40.6,2023-04-17T23:41:23.673703Z,251,2023-04-17T23:41:23.673703Z,1,"Forensic analysis of Turkish elections in 2017–2018: ""For the 2017 Referendum we find systematic and highly significant statistical support for the presence of both ballot stuffing and voter rigging...We find statistical irregularities in the 2018 presidential and parliamentary elections.""",Negative
+251,55.51,2023-04-17T23:42:19.651227Z,252,2023-04-17T23:42:19.651227Z,1,Reminder: Rule 4. All images must be edited in some way.,Neutral
+252,17.554,2023-04-17T23:42:37.675830Z,253,2023-04-17T23:42:37.675830Z,1,When you bring your emotions into play,Positive
+253,17.133,2023-04-17T23:42:55.320577Z,254,2023-04-17T23:42:55.320577Z,1,"When they say you have to ""open up more""",Positive
+254,12.904,2023-04-17T23:43:08.698532Z,255,2023-04-17T23:43:08.698532Z,1,It can get very frustrating.,Negative
+255,22.526,2023-04-17T23:43:31.737071Z,256,2023-04-17T23:43:31.737071Z,1,Little help? Anything?,Negative
+256,8.547,2023-04-17T23:43:40.751075Z,257,2023-04-17T23:43:40.751075Z,1,Don't embarrass me. Everyone can see.,Negative
+257,14.477,2023-04-17T23:43:55.696326Z,258,2023-04-17T23:43:55.696326Z,1,We've all been there,Negative
+258,11.554,2023-04-17T23:44:07.750981Z,259,2023-04-17T23:44:07.750981Z,1,And it’s always over the most petty things,Negative
+259,2.902,2023-04-17T23:44:11.151050Z,260,2023-04-17T23:44:11.151050Z,1,Listen to your mother,Positive
+260,3.432,2023-04-17T23:44:15.056658Z,261,2023-04-17T23:44:15.056658Z,1,Going catfishing together,Negative
+261,14.412,2023-04-17T23:44:29.872855Z,262,2023-04-17T23:44:29.872855Z,1,"Satan should have known when their capital city is literally named ""Bang Cock""!!!",Negative
+262,6.584,2023-04-17T23:44:36.940876Z,263,2023-04-17T23:44:36.940876Z,1,Oh the shame!,Negative
+263,5.828,2023-04-17T23:44:43.246546Z,264,2023-04-17T23:44:43.246546Z,1,Feeling sheepish,Negative
+264,15.032,2023-04-17T23:44:58.794387Z,265,2023-04-17T23:44:58.794387Z,1,Poor Genie,Negative
+265,180.906,2023-04-17T23:48:00.169516Z,266,2023-04-17T23:48:00.169516Z,1,Better out than in i always say,Positive
+266,23.758,2023-04-17T23:48:24.425681Z,267,2023-04-17T23:48:24.425681Z,1,Caught by the devil himself,Negative
+267,10.016,2023-04-17T23:48:34.909777Z,268,2023-04-17T23:48:34.909777Z,1,Time to split the tab at ye olde tavern,Neutral
+268,3.603,2023-04-17T23:48:38.994041Z,269,2023-04-17T23:48:38.995032Z,1,The prose is just so vivid.,Positive
+269,7.974,2023-04-17T23:48:47.455793Z,270,2023-04-17T23:48:47.455793Z,1,Some things never change,Neutral
+270,3.739,2023-04-17T23:48:51.672126Z,271,2023-04-17T23:48:51.672126Z,1,I Said,Neutral
+271,3.758,2023-04-17T23:48:55.866823Z,272,2023-04-17T23:48:55.866823Z,1,It's fine they're coworkers it's work related texts,Neutral
+272,3.275,2023-04-17T23:48:59.602310Z,273,2023-04-17T23:48:59.602310Z,1,Growing up with siblings:,Neutral
+273,3.351,2023-04-17T23:49:03.446198Z,274,2023-04-17T23:49:03.446198Z,1,We faithful,Positive
+274,3.519,2023-04-17T23:49:07.440148Z,275,2023-04-17T23:49:07.440148Z,1,It's all fun and war until someone loses an eye,Negative
+275,102.061,2023-04-17T23:50:49.982314Z,276,2023-04-17T23:50:49.982314Z,1,It's my sandwich,Positive
+276,10.516,2023-04-17T23:51:01.021763Z,277,2023-04-17T23:51:01.021763Z,1,Easter celebrations in Italy,Positive
+277,19.746,2023-04-17T23:51:21.283780Z,278,2023-04-17T23:51:21.283780Z,1,happy bday,Positive
+278,132.116,2023-04-17T23:53:34.173500Z,279,2023-04-17T23:53:34.173500Z,1,You might be cool but are you this cool?,Positive
+279,6.384,2023-04-17T23:53:41.060059Z,280,2023-04-17T23:53:41.060059Z,1,why do these step sisters keep getting stuck in things?,Negative
+280,14.372,2023-04-17T23:53:55.930684Z,281,2023-04-17T23:53:55.930684Z,1,How to get big forearms,Positive
+281,3.664,2023-04-17T23:54:00.105371Z,282,2023-04-17T23:54:00.105371Z,1,Cat catches mouse..,Positive
+282,171.582,2023-04-17T23:56:52.214178Z,283,2023-04-17T23:56:52.214178Z,1,Cool bar trick. (Maybe NSFW)?,Positive
+283,2.296,2023-04-17T23:56:55.012982Z,284,2023-04-17T23:56:55.012982Z,1,Beautiful day at lake,Positive
+284,2.93,2023-04-17T23:56:58.447944Z,285,2023-04-17T23:56:58.447944Z,1,How to provide choking,Negative
+285,5.995,2023-04-17T23:57:04.910760Z,286,2023-04-17T23:57:04.910760Z,1,Didn't realise it could be so functional in its current condition.,Positive
+286,39.8,2023-04-17T23:57:45.166699Z,287,2023-04-17T23:57:45.166699Z,1,Payback time😈,Neutral
+287,15.615,2023-04-17T23:58:01.286723Z,288,2023-04-17T23:58:01.286723Z,1,Just gotta use the bathroom real quick. ,Neutral
+288,2.849,2023-04-17T23:58:04.630205Z,289,2023-04-17T23:58:04.630205Z,1,Good idea though,Positive
+289,9.776,2023-04-17T23:58:14.907476Z,290,2023-04-17T23:58:14.907476Z,1,Average day in America,Neutral
+290,2.734,2023-04-17T23:58:18.168367Z,291,2023-04-17T23:58:18.168367Z,1,Cheers ,Positive
+291,3.154,2023-04-17T23:58:21.825401Z,292,2023-04-17T23:58:21.826406Z,1,A real emergency landing,Negative
+292,3.182,2023-04-17T23:58:25.478904Z,293,2023-04-17T23:58:25.478904Z,1,Ultra Instinct,Neutral
+293,4.165,2023-04-17T23:58:30.147260Z,294,2023-04-17T23:58:30.147260Z,1,Liquid Slam,Positive
+294,16.066,2023-04-17T23:58:46.642827Z,295,2023-04-17T23:58:46.642827Z,1,Come back here,Neutral
+295,32.688,2023-04-17T23:59:19.838791Z,296,2023-04-17T23:59:19.838791Z,1,He was like where did the pain go,Positive
+296,3.639,2023-04-17T23:59:23.956161Z,297,2023-04-17T23:59:23.956161Z,1,Sound of Ferrari ,Neutral
+297,2.401,2023-04-17T23:59:26.861911Z,298,2023-04-17T23:59:26.861911Z,1,Perfect coincidence,Positive
+298,9.917,2023-04-17T23:59:37.273940Z,299,2023-04-17T23:59:37.273940Z,1,poor guy,Negative
+299,3.494,2023-04-17T23:59:41.296810Z,300,2023-04-17T23:59:41.296810Z,1,Well she was in the position…right?,Neutral
+300,14.919,2023-04-17T23:59:56.696049Z,301,2023-04-17T23:59:56.696049Z,1,It’s Skyline Time,Neutral
+301,3.188,2023-04-18T00:00:00.378337Z,302,2023-04-18T00:00:00.378337Z,1,Daily Discussion and Game Recommendations Thread (April 09 2023),Neutral
+302,2.507,2023-04-18T00:00:03.380009Z,303,2023-04-18T00:00:03.380009Z,1,Midweek Mingle - (April 06 2023),Neutral
+303,3.508,2023-04-18T00:00:07.364283Z,304,2023-04-18T00:00:07.364283Z,1,I’ve spent the last year creating my first official game which is out now on Kickstarter!,Positive
+304,4.782,2023-04-18T00:00:12.652570Z,305,2023-04-18T00:00:12.652570Z,1,Alhambra Big Box found for $20 at local thrift store! How do you guys like this game?,Positive
+305,4.625,2023-04-18T00:00:17.800689Z,306,2023-04-18T00:00:17.801909Z,1,BGG-Best-Games-for-Player-Count: a script for google sheets to import your owned games from Board Game Geek API and sort them by how good they play for a given Player Count,Positive
+306,60.691,2023-04-18T00:01:19.013501Z,307,2023-04-18T00:01:19.013501Z,1,Are there dungeon crawlers that are similar battletech/MechWarrior themed? more sci-fi and vehicle based?,Neutral
+307,8.745,2023-04-18T00:01:23.105569Z,308,2023-04-18T00:01:32.094779Z,1,Hoping a lot more publishers follow Stonemaier Customer support,Positive
+308,8.569,2023-04-18T00:01:43.409734Z,309,2023-04-18T00:01:43.409734Z,1,Why is it that some games are really hard to learn but then super easy to play? Hoping to gain insights on how to teach games.,Neutral
+309,69.522,2023-04-18T00:02:53.467364Z,310,2023-04-18T00:02:53.467364Z,1,I made a way to play Final Girl Co-op with two core sets,Positive
+310,19.748,2023-04-18T00:03:13.725875Z,311,2023-04-18T00:03:13.725875Z,1,Scythe: The Rise of Fenris... How often to play?,Neutral
+311,27.277,2023-04-18T00:03:41.492085Z,312,2023-04-18T00:03:41.492085Z,1,Spring break packing,Neutral
+312,8.437,2023-04-18T00:03:50.476853Z,313,2023-04-18T00:03:50.476853Z,1,Sleeping Gods,Neutral
+313,117.972,2023-04-18T00:05:48.954268Z,314,2023-04-18T00:05:48.954268Z,1,How is this character ability card played in Cash 'n Guns? Can someone please clarify the ruling?,Neutral
+314,36.658,2023-04-18T00:06:26.125078Z,315,2023-04-18T00:06:26.125078Z,1,Godzilla: Tokyo Clash,Neutral
+315,29.331,2023-04-18T00:06:55.986172Z,316,2023-04-18T00:06:55.986172Z,1,The Clubs 2023 Cuttle Season Championship is today at 12pm EST,Neutral
+316,2.401,2023-04-18T00:06:58.897530Z,317,2023-04-18T00:06:58.897530Z,1,Playmat Website,Neutral
+317,3.481,2023-04-18T00:07:02.894686Z,318,2023-04-18T00:07:02.894686Z,1,My Solo setup for Tiny Towns,Neutral
+318,4.944,2023-04-18T00:07:08.385855Z,319,2023-04-18T00:07:08.385855Z,1,Need help remembering a game,Neutral
+319,3.675,2023-04-18T00:07:12.598414Z,320,2023-04-18T00:07:12.598414Z,1,Help me find this game,Neutral
+320,35.304,2023-04-18T00:07:48.385683Z,321,2023-04-18T00:07:48.385683Z,1,Does anyone know what board game these Greek Myth minis belong to?,Neutral
+321,3.885,2023-04-18T00:07:52.778267Z,322,2023-04-18T00:07:52.778267Z,1,City of The Big Shoulders open acces PnP,Neutral
+322,11.405,2023-04-18T00:08:04.692301Z,323,2023-04-18T00:08:04.692301Z,1,are there board games wich are like warhammer but just in one big box?,Neutral
+323,3.265,2023-04-18T00:08:08.433689Z,324,2023-04-18T00:08:08.433689Z,1,What is everybody backing on Kickstarter these days?,Neutral
+324,4.72,2023-04-18T00:08:13.694565Z,325,2023-04-18T00:08:13.694565Z,1,Is there a Card/Boardgame like Miracle Merchant,Neutral
+325,4.414,2023-04-18T00:08:18.646731Z,326,2023-04-18T00:08:18.646731Z,1,Boarding School Games Scam,Negative
+326,5.685,2023-04-18T00:08:24.801531Z,327,2023-04-18T00:08:24.802747Z,1,Happy Weekend Y'all,Positive
+327,2.209,2023-04-18T00:08:27.451571Z,328,2023-04-18T00:08:27.451571Z,1,I think this is accurate,Positive
+328,5.497,2023-04-18T00:08:33.409467Z,329,2023-04-18T00:08:33.409467Z,1,I’m rug maker this is my latest creation,Positive
+329,5.083,2023-04-18T00:08:38.884777Z,330,2023-04-18T00:08:38.884777Z,1,And the waters wayyyy to hot,Negative
+330,5.666,2023-04-18T00:08:42.976970Z,331,2023-04-18T00:08:51.283301Z,1,So much potential,Negative
+331,2.793,2023-04-18T00:08:56.164527Z,332,2023-04-18T00:08:56.164527Z,1,Too relatable,Positive
+332,9.191,2023-04-18T00:09:05.881671Z,333,2023-04-18T00:09:05.881671Z,1,hurts every time,Negative
+333,4.456,2023-04-18T00:09:10.873956Z,334,2023-04-18T00:09:10.873956Z,1,At least my stomach has stopped rumbling at the table,Positive
+334,6.45,2023-04-18T00:09:17.880620Z,335,2023-04-18T00:09:17.880620Z,1,So anyway I started blasting�,Negative
+335,5.546,2023-04-18T00:09:23.930208Z,336,2023-04-18T00:09:23.930208Z,1,Respect my privacy!,Negative
+336,3.076,2023-04-18T00:09:27.443231Z,337,2023-04-18T00:09:27.443231Z,1,he's adorable,Positive
+337,10.672,2023-04-18T00:09:38.615596Z,338,2023-04-18T00:09:38.615596Z,1,This is the truth,Positive
+338,4.753,2023-04-18T00:09:43.846490Z,339,2023-04-18T00:09:43.846490Z,1,(Happy birthday to me!!) I drew nervous Patrick!,Positive
+339,4.886,2023-04-18T00:09:49.284162Z,340,2023-04-18T00:09:49.284162Z,1,No need to thank me,Positive
+340,3.545,2023-04-18T00:09:53.345031Z,341,2023-04-18T00:09:53.345031Z,1,I don't know about you but I had a really fun time,Positive
+341,2384.536,2023-04-18T00:49:38.745987Z,342,2023-04-18T00:49:38.745987Z,1,I don't need all three,Negative
+342,187.635,2023-04-18T00:52:46.847330Z,343,2023-04-18T00:52:46.847330Z,1,he has been terrorizing all of us,Negative
+343,5.184,2023-04-18T00:52:52.547151Z,344,2023-04-18T00:52:52.547151Z,1,Every Mom Ever,Neutral
+344,4.792,2023-04-18T00:52:57.844389Z,345,2023-04-18T00:52:57.844389Z,1,Me realizing I've been here for 3 years as of today,Neutral
+345,2.155,2023-04-18T00:53:00.402280Z,346,2023-04-18T00:53:00.402280Z,1,The worst feeling 😭,Negative
+346,6.629,2023-04-18T00:53:07.549751Z,347,2023-04-18T00:53:07.549751Z,1,Let's play mad libs before everyone wakes up,Neutral
+347,2.544,2023-04-18T00:53:10.567489Z,348,2023-04-18T00:53:10.567489Z,1,Guess who this is,Neutral
+348,2.803,2023-04-18T00:53:13.824077Z,349,2023-04-18T00:53:13.824077Z,1,I didn’t want to go,Negative
+349,3.687,2023-04-18T00:53:18.046912Z,350,2023-04-18T00:53:18.046912Z,1,season 9A doesn't look so bad now,Positive
+350,4.074,2023-04-18T00:53:22.624325Z,351,2023-04-18T00:53:22.624325Z,1,Every morning is the same,Neutral
+351,3.225,2023-04-18T00:53:26.376126Z,352,2023-04-18T00:53:26.376126Z,1,Friendly Friday Thread,Positive
+352,122.605,2023-04-18T00:55:29.531354Z,353,2023-04-18T00:55:29.531354Z,1,"Seeds & Seed Starting Megathread: Where to buy seeds? How to start seeds? When to start seeds? What lights do I need? ""Seed Haul"" pics? Seed storage & organizing? POST HERE!",Neutral
+353,4.122,2023-04-18T00:55:34.193583Z,354,2023-04-18T00:55:34.193583Z,1,Healthy mint,Positive
+354,17.044,2023-04-18T00:55:51.713682Z,355,2023-04-18T00:55:51.713682Z,1,Vines vs Chain Link Fence,Neutral
+355,4.444,2023-04-18T00:55:56.670665Z,356,2023-04-18T00:55:56.670665Z,1,Finally finished my wife’s greenhouse!,Positive
+356,7.345,2023-04-18T00:56:04.511614Z,357,2023-04-18T00:56:04.511614Z,1,I tore the grass out of our front yard because I read the birds and bees would appreciate that. Please turn up the sound and listen to their praise.,Positive
+357,3.238,2023-04-18T00:56:08.220023Z,358,2023-04-18T00:56:08.220023Z,1,My dream bed is finally up! My first ever proper veggie garden is ready to rock!,Positive
+358,4.239,2023-04-18T00:56:12.957884Z,359,2023-04-18T00:56:12.957884Z,1,What is this and what is it used for?,Neutral
+359,11.546,2023-04-18T00:56:25.019110Z,360,2023-04-18T00:56:25.019110Z,1,Our 13-year-old Croton Petra,Neutral
+360,4.082,2023-04-18T00:56:29.616896Z,361,2023-04-18T00:56:29.616896Z,1,This weeping cherry tree in my yard,Negative
+361,83.755,2023-04-18T00:57:53.840729Z,362,2023-04-18T00:57:53.840729Z,1,My first flowerbed,Neutral
+362,389.898,2023-04-18T01:04:24.488208Z,363,2023-04-18T01:04:24.488208Z,1,First papaya ready to harvest- started from seed 16 months ago,Neutral
+363,4.184,2023-04-18T01:04:29.155710Z,364,2023-04-18T01:04:29.155710Z,1,Bug hotel,Negative
+364,2.54,2023-04-18T01:04:32.246083Z,365,2023-04-18T01:04:32.246083Z,1,Happy little corner,Positive
+365,31.003,2023-04-18T01:05:03.796295Z,366,2023-04-18T01:05:03.796295Z,1,My first anemone,Neutral
+366,27.903,2023-04-18T01:05:32.273540Z,367,2023-04-18T01:05:32.273540Z,1,How to control Mint?,Neutral
+367,3.725,2023-04-18T01:05:36.482743Z,368,2023-04-18T01:05:36.482743Z,1,Seed haul!,Positive
+368,53.755,2023-04-18T01:06:30.672751Z,369,2023-04-18T01:06:30.672751Z,1,Blooms,Neutral
+369,71.814,2023-04-18T01:07:43.078199Z,370,2023-04-18T01:07:43.078199Z,1,Ran out of room in the greenhouse and it's going to be a cold night move the car out and the seedlings in!,Neutral
+370,2.902,2023-04-18T01:07:46.519669Z,371,2023-04-18T01:07:46.519669Z,1,First radishes of the year!,Positive
+371,4.253,2023-04-18T01:07:51.283051Z,372,2023-04-18T01:07:51.283051Z,1,Spring cleanup today…now what to plant in all my pots!,Neutral
+372,4.084,2023-04-18T01:07:55.819536Z,373,2023-04-18T01:07:55.819536Z,1,To pinch or not to pinch. Do I remove these little buds on my pepper starts?,Neutral
+373,76.351,2023-04-18T01:09:12.659583Z,374,2023-04-18T01:09:12.659583Z,1,Made this after my wife went out for a pack of Hori Hori knives and never came back,Negative
+374,3.467,2023-04-18T01:09:16.584631Z,375,2023-04-18T01:09:16.584631Z,1,My old neighbors brought me the sweetest gift.,Positive
+375,15.516,2023-04-18T01:09:32.596661Z,376,2023-04-18T01:09:32.596661Z,1,At my Home Depot today. I gave it a little pull and it was definitely growing in there not just planted. Harvest Soil with weeds!,Negative
+376,5.276,2023-04-18T01:09:38.335427Z,377,2023-04-18T01:09:38.335427Z,1,An open letter to Niantic from the Community - #HearUsNiantic,Neutral
+377,3.158,2023-04-18T01:09:41.952688Z,378,2023-04-18T01:09:41.952688Z,1,Weekly questions bugs and gameplay megathread - April 2023,Neutral
+378,5.296,2023-04-18T01:09:47.739787Z,379,2023-04-18T01:09:47.739787Z,1,BEEFARONI IS CHEAPER THAN A REMOTE RAID PASS,Positive
+379,4.487,2023-04-18T01:09:52.746643Z,380,2023-04-18T01:09:52.746643Z,1,The greatest review I've seen so far,Positive
+380,4.793,2023-04-18T01:09:57.987758Z,381,2023-04-18T01:09:57.987758Z,1,Thank you Niantic for nerfing remote raids. Totally helped me out!,Positive
+381,7.431,2023-04-18T01:10:05.838181Z,382,2023-04-18T01:10:05.838181Z,1,Got a shiny Chansey with ZERO IVs. What should I name her?,Positive
+382,26.87,2023-04-18T01:10:33.207751Z,383,2023-04-18T01:10:33.207751Z,1,Remote raid passes are 195 pokécoins and y’all be raiding cutiefly? 😭,Neutral
+383,6.304,2023-04-18T01:10:39.982827Z,384,2023-04-18T01:10:39.982827Z,1,For those that are leaving ✌️,Positive
+384,6.118,2023-04-18T01:10:46.635356Z,385,2023-04-18T01:10:46.635356Z,1,STAY UNITED AND DONT PLAY POGO,Positive
+385,143.205,2023-04-18T01:13:10.409380Z,386,2023-04-18T01:13:10.409380Z,1,Quitting the game cold turkey broke me out of the skinner box.,Positive
+386,5.652,2023-04-18T01:13:16.593543Z,387,2023-04-18T01:13:16.593543Z,1,Delete & Re-do your review with TWO STARS on the app/play store!,Negative
+387,2.98,2023-04-18T01:13:20.075797Z,388,2023-04-18T01:13:20.075797Z,1,I tried it Niantic�,Neutral
+388,3.733,2023-04-18T01:13:24.265047Z,389,2023-04-18T01:13:24.265047Z,1,EGGS (!!!!) are cheaper than a remote raid pass,Positive
+389,6.035,2023-04-18T01:13:30.818939Z,390,2023-04-18T01:13:30.818939Z,1,Can't wait to get my free raid pa- oh,Positive
+390,2.077,2023-04-18T01:13:33.438536Z,391,2023-04-18T01:13:33.438536Z,1,This is ridiculous,Negative
+391,3.246,2023-04-18T01:13:37.200898Z,392,2023-04-18T01:13:37.200898Z,1,Outcome of Niantic’s tactics,Neutral
+392,13.177,2023-04-18T01:13:50.878238Z,393,2023-04-18T01:13:50.878238Z,1,My first Shundo!,Positive
+393,16.47,2023-04-18T01:14:07.900824Z,394,2023-04-18T01:14:07.900824Z,1,Remote raiding changed the gameplay in a way we did not intend. Then that means folks were relying on remote raids due to limitations with the game mechanics and/or their locations.,Neutral
+394,195.153,2023-04-18T01:17:23.886524Z,395,2023-04-18T01:17:23.886524Z,1,GBL should be in person as well,Positive
+395,101.056,2023-04-18T01:19:05.484573Z,396,2023-04-18T01:19:05.484573Z,1,Will she keep her flower crown when she evolves?,Neutral
+396,14.462,2023-04-18T01:19:20.473390Z,397,2023-04-18T01:19:20.473390Z,1,I would rather have a 350 coin weekly limit than a daily 50 coin one,Negative
+397,64.597,2023-04-18T01:20:25.577459Z,398,2023-04-18T01:20:25.577459Z,1,Man I can't wait for the elite raid to find out how many trainers will help me defeat the boss! Or at least that's what I'd say if I weren't the only person in the town playing PoGo,Neutral
+398,4.317,2023-04-18T01:20:30.405949Z,399,2023-04-18T01:20:30.405949Z,1,Everyone give Niantic a round of applause,Positive
+399,2.712,2023-04-18T01:20:33.544595Z,400,2023-04-18T01:20:33.544595Z,1,SHE IS SO BEAUTIFUL,Positive
+400,10.499,2023-04-18T01:20:45.092744Z,401,2023-04-18T01:20:45.092744Z,1,"I love that ""Price Increase"" is now a suggested search for pokemon go reviews",Positive
+401,7.105,2023-04-18T01:20:52.712842Z,402,2023-04-18T01:20:52.712842Z,1,Weekly /r/Games Discussion - What have you been playing and what are your thoughts? - April 02 2023,Neutral
+402,33.425,2023-04-18T01:21:26.760306Z,403,2023-04-18T01:21:26.760306Z,1,Indie Sunday Hub - April 09 2023,Neutral
+403,75.056,2023-04-18T01:22:42.317597Z,404,2023-04-18T01:22:42.317597Z,1,Final Fantasy XVI To Feature World Map And Structure Similar To FFX And XII,Neutral
+404,8.872,2023-04-18T01:22:51.669161Z,405,2023-04-18T01:22:51.669161Z,1,Katsuhiro Harada confirms Tekken 8 will have Cross-Play,Positive
+405,13.849,2023-04-18T01:23:06.019246Z,406,2023-04-18T01:23:06.019246Z,1,Don't Die Collect Loot - Dan Marchand - Modern ARPGs meet arcade style gameplay,Neutral
+406,6.401,2023-04-18T01:23:12.941755Z,407,2023-04-18T01:23:12.941755Z,1,American McGee to retire from the video game industry after Alice: Asylum pitch was rejected by EA.,Negative
+407,52.937,2023-04-18T01:24:06.420332Z,408,2023-04-18T01:24:06.420332Z,1,Diablo 3 next season will be its last new content It will then will begin rotating through old seasons.,Neutral
+408,34.357,2023-04-18T01:24:41.259408Z,409,2023-04-18T01:24:41.259408Z,1,Katsuhiro Harada confirms Rollback net code in Tekken 8,Neutral
+409,3.642,2023-04-18T01:24:45.499836Z,410,2023-04-18T01:24:45.499836Z,1,Marfusha - Launch Trailer,Neutral
+410,6.638,2023-04-18T01:24:52.595297Z,411,2023-04-18T01:24:52.595297Z,1,Joseph Staten Is Leaving Xbox Microsoft Has Confirmed - IGN,Negative
+411,7.289,2023-04-18T01:25:00.440262Z,412,2023-04-18T01:25:00.441370Z,1,CS:GO players spent $100M+ on in-game cases in a last month.,Neutral
+412,5.244,2023-04-18T01:25:06.219196Z,413,2023-04-18T01:25:06.219196Z,1,Resident Evil 4 remake has added microtransactions to upgrade weapons quicker,Positive
+413,2.875,2023-04-18T01:25:09.582992Z,414,2023-04-18T01:25:09.582992Z,1,Advance Wars 1+2: Re-Boot Camp — Overview Trailer — Nintendo Switch,Neutral
+414,85.729,2023-04-18T01:26:35.866391Z,415,2023-04-18T01:26:35.866391Z,1,Bloodborne Kart: Campaign Mode Gascoigne Boss Fight WIP,Neutral
+415,3.13,2023-04-18T01:26:39.528083Z,416,2023-04-18T01:26:39.528083Z,1,Age of Empires II: Return of Rome is releasing on May 16,Neutral
+416,4.358,2023-04-18T01:26:44.471425Z,417,2023-04-18T01:26:44.471425Z,1,Take-Two dismisses lawsuit against Grand Theft Auto modders,Positive
+417,3.493,2023-04-18T01:26:48.470299Z,418,2023-04-18T01:26:48.470299Z,1,Resident Evil 4 remake free DLC ‘The Mercenaries’ now available,Positive
+418,6.234,2023-04-18T01:26:55.229245Z,419,2023-04-18T01:26:55.229245Z,1,Omdia: Steam Deck installed base to surpass three million during 2023,Positive
+419,5.105,2023-04-18T01:27:00.851116Z,420,2023-04-18T01:27:00.851116Z,1,TMNT: The Cowabunga Collection has reached over 1 million units sold,Positive
+420,4.241,2023-04-18T01:27:05.581845Z,421,2023-04-18T01:27:05.581845Z,1,Tales of Symphonia - All Ports Reviewed & Compared (+ DOTNW) [GC PS2 PS3 Steam Remastered],Neutral
+421,9.371,2023-04-18T01:27:15.409545Z,422,2023-04-18T01:27:15.409545Z,1,Lone Fungus - Release Trailer,Neutral
+422,44.923,2023-04-18T01:28:00.832438Z,423,2023-04-18T01:28:00.832438Z,1,Tempest Rising - PVP Showdown,Neutral
+423,2.414,2023-04-18T01:28:03.768939Z,424,2023-04-18T01:28:03.768939Z,1,WaxHeart | Demo Release Trailer (GDC 2023),Neutral
+424,11.574,2023-04-18T01:28:15.900771Z,425,2023-04-18T01:28:15.900771Z,1,Blue Protocol Opening Animation,Neutral
+425,6.499,2023-04-18T01:28:22.968888Z,426,2023-04-18T01:28:22.968888Z,1,Sales of Resident Evil 4 Top 4 Million Units,Positive
+426,2.825,2023-04-18T01:28:26.370239Z,427,2023-04-18T01:28:26.370239Z,1,Instant regret x2,Negative
+427,4.102,2023-04-18T01:28:30.982850Z,428,2023-04-18T01:28:30.982850Z,1,Two guys try to steal a truck and quickly get rejected,Negative
+428,8.376,2023-04-18T01:28:39.934024Z,429,2023-04-18T01:28:39.934024Z,1,Cop immediately regrets looking away for just a second while taking a protester to custody,Negative
+429,6.674,2023-04-18T01:28:47.210470Z,430,2023-04-18T01:28:47.210470Z,1,What was the monkey thinking,Neutral
+430,24.78,2023-04-18T01:29:12.502041Z,431,2023-04-18T01:29:12.502041Z,1,Having this much faith in a toddler with a club,Negative
+431,20.282,2023-04-18T01:29:33.344645Z,432,2023-04-18T01:29:33.344645Z,1,Footballer injured himself after doing a SIU goal celebration,Negative
+432,2.827,2023-04-18T01:29:36.741454Z,433,2023-04-18T01:29:36.741454Z,1,Old women spits on another person,Negative
+433,2.55,2023-04-18T01:29:39.802205Z,434,2023-04-18T01:29:39.802205Z,1,Went from bad to worse,Negative
+434,3.209,2023-04-18T01:29:43.590668Z,435,2023-04-18T01:29:43.590668Z,1,Best way to practice Darts,Positive
+435,4.981,2023-04-18T01:29:49.130889Z,436,2023-04-18T01:29:49.130889Z,1,Top biggest idea of all time.,Positive
+436,51.814,2023-04-18T01:30:41.545497Z,437,2023-04-18T01:30:41.545497Z,1,Scott Sterling style save,Neutral
+437,8.93,2023-04-18T01:30:51.001331Z,438,2023-04-18T01:30:51.001331Z,1,Hit her so hard that she turned into Forest Whitaker,Negative
+438,6.066,2023-04-18T01:30:57.643398Z,439,2023-04-18T01:30:57.643398Z,1,Williams F1 e-sports driver Álvaro Carretón accidentally alt-tabs to cheats folder on stream,Negative
+439,6.803,2023-04-18T01:31:04.948333Z,440,2023-04-18T01:31:04.948333Z,1,Florida man on a motorcycle flips the bird at police and runs a red light gets T-boned by a vehicle then whines while being arrested,Negative
+440,3.887,2023-04-18T01:31:09.339226Z,441,2023-04-18T01:31:09.339226Z,1,Smoking is injurious to health,Negative
+441,3.341,2023-04-18T01:31:13.209917Z,442,2023-04-18T01:31:13.209917Z,1,Well shit.,Negative
+442,3.062,2023-04-18T01:31:16.823789Z,443,2023-04-18T01:31:16.823789Z,1,Kid spits at police officer,Negative
+443,3.785,2023-04-18T01:31:21.126443Z,444,2023-04-18T01:31:21.126443Z,1,He regrets getting caught,Negative
+444,8.305,2023-04-18T01:31:29.905376Z,445,2023-04-18T01:31:29.905376Z,1,A sudden soaking,Negative
+445,4.495,2023-04-18T01:31:34.878667Z,446,2023-04-18T01:31:34.878667Z,1,He fought a good fight but at the end he made a heckin mistake,Negative
+446,6.145,2023-04-18T01:31:41.561152Z,447,2023-04-18T01:31:41.561152Z,1,Crumby luck,Negative
+447,9.756,2023-04-18T01:31:51.861965Z,448,2023-04-18T01:31:51.861965Z,1,Not even close,Negative
+448,11.141,2023-04-18T01:32:03.505216Z,449,2023-04-18T01:32:03.505216Z,1,Milkshake regret,Negative
+449,7.568,2023-04-18T01:32:11.522388Z,450,2023-04-18T01:32:11.522388Z,1,Girl is reminded why you dont run up on a mounted officer,Negative
+450,3.56,2023-04-18T01:32:15.595782Z,451,2023-04-18T01:32:15.595782Z,1,Drunk trick.,Negative
+451,43.935,2023-04-18T01:33:00.114226Z,452,2023-04-18T01:33:00.114226Z,1,★OFFICIAL DAILY★ Daily Q&A Thread April 08 2023,Neutral
+452,4.625,2023-04-18T01:33:05.316159Z,453,2023-04-18T01:33:05.316159Z,1,Spring 2023 Challenge incoming!,Positive
+453,9.781,2023-04-18T01:33:15.625057Z,454,2023-04-18T01:33:15.625057Z,1,400lbs guy. I nearly ordered take out for dinner but didn't I had tuna pasta instead.,Neutral
+454,10.73,2023-04-18T01:33:26.953314Z,455,2023-04-18T01:33:26.953314Z,1,Carrying my lost weight around... literally.,Neutral
+455,4.446,2023-04-18T01:33:32.003465Z,456,2023-04-18T01:33:32.003465Z,1,[PROGRESS] Started at 406 in 2020. Currently 339.,Positive
+456,5.491,2023-04-18T01:33:38.063973Z,457,2023-04-18T01:33:38.063973Z,1,[SV] Officially 50lbs down just in time for a mandatory break.,Positive
+457,9.213,2023-04-18T01:33:47.840448Z,458,2023-04-18T01:33:47.840448Z,1,Semaglutide (Ozempic / Wegovy / Rybelsus) has been a total game changer for me,Positive
+458,4.536,2023-04-18T01:33:52.943715Z,459,2023-04-18T01:33:52.943715Z,1,My fiancé's grandma grabbed my stomach,Negative
+459,4.247,2023-04-18T01:33:57.741908Z,460,2023-04-18T01:33:57.741908Z,1,NSV: I joined the National Weight Control Registry!,Positive
+460,5.534,2023-04-18T01:34:03.766354Z,461,2023-04-18T01:34:03.766354Z,1,Anyone else here gained all their weight back and are now losing it again?,Positive
+461,5.001,2023-04-18T01:34:09.304496Z,462,2023-04-18T01:34:09.304496Z,1,My weight is my depression monster.,Negative
+462,4.307,2023-04-18T01:34:14.069239Z,463,2023-04-18T01:34:14.069239Z,1,I left food on my plate today,Positive
+463,5.719,2023-04-18T01:34:20.289195Z,464,2023-04-18T01:34:20.289195Z,1,I went over my calories by 900 because of a cookie…,Negative
+464,5.535,2023-04-18T01:34:26.417439Z,465,2023-04-18T01:34:26.417439Z,1,Coming up on my goal weight but I kind of want to keep going?,Positive
+465,3.633,2023-04-18T01:34:30.698842Z,466,2023-04-18T01:34:30.698842Z,1,My waist is finally getting smaller!,Positive
+466,11.439,2023-04-18T01:34:42.714943Z,467,2023-04-18T01:34:42.714943Z,1,Stress and weight management,Positive
+467,4.354,2023-04-18T01:34:47.585082Z,468,2023-04-18T01:34:47.585082Z,1,Got lab results back and I’m so mad at myself,Negative
+468,8.221,2023-04-18T01:34:56.401381Z,469,2023-04-18T01:34:56.401381Z,1,Today is my day 1,Neutral
+469,624.789,2023-04-18T01:45:22.102731Z,470,2023-04-18T01:45:22.102731Z,1,Barilla Gluten Free Spaghetti Wet Vs. Dry Weight,Neutral
+470,22.194,2023-04-18T01:45:44.805144Z,471,2023-04-18T01:45:44.805144Z,1,Question about the Lose It app,Neutral
+471,3.546,2023-04-18T01:45:48.787002Z,472,2023-04-18T01:45:48.787002Z,1,Hate seeing my body!,Negative
+472,6.336,2023-04-18T01:45:55.661087Z,473,2023-04-18T01:45:55.661087Z,1,Down 51 pounds in 52 weeks (230ish- 179),Positive
+473,3.359,2023-04-18T01:45:59.581484Z,474,2023-04-18T01:45:59.581484Z,1,On the brink,Neutral
+474,17.074,2023-04-18T01:46:17.191314Z,475,2023-04-18T01:46:17.191314Z,1,Too little protein,Negative
+475,71.717,2023-04-18T01:47:29.547025Z,476,2023-04-18T01:47:29.548051Z,1,30 Day Accountability Challenge - Day 8,Neutral
+476,5.759,2023-04-18T01:47:35.873766Z,477,2023-04-18T01:47:35.873766Z,1,Drop Watch: April 7th 2023,Neutral
+477,10.016,2023-04-18T01:47:46.456996Z,478,2023-04-18T01:47:46.456996Z,1,2022 Album of the Year Writeups Compilation,Neutral
+478,71.971,2023-04-18T01:48:54.748688Z,479,2023-04-18T01:49:07.433452Z,1,Kaytranada & Aminé Album Release Date Announced—Dropping May 12,Neutral
+479,4.741,2023-04-18T01:49:00.074651Z,480,2023-04-18T01:49:00.075670Z,1,"Logic and C Dot Castro have formed a group called ""HalfBreed"" and will be releasing an EP on Monday (04/10)",Neutral
+480,100.019,2023-04-18T01:50:54.471682Z,481,2023-04-18T01:50:54.471682Z,1,[FRESH VIDEO] Lil Yachty - Strike (Holster) (Directed by Cole Bennett),Neutral
+481,8.116,2023-04-18T01:51:03.180609Z,482,2023-04-18T01:51:03.180609Z,1,DRAM - Gilligan (feat. A$AP Rocky & Juicy J),Neutral
+482,2.754,2023-04-18T01:51:06.365912Z,483,2023-04-18T01:51:06.365912Z,1,Drake & Lil Uzi Vert: At The Gates,Neutral
+483,2.281,2023-04-18T01:51:09.216987Z,484,2023-04-18T01:51:09.216987Z,1,[FIRST IMPRESSIONS] Daniel Caesar - NEVER ENOUGH,Neutral
+484,3.83,2023-04-18T01:51:13.648273Z,485,2023-04-18T01:51:13.648273Z,1,[DISCUSSION] Wiz Khalifa Big K.R.I.T. Girl Talk & Smoke DZA - Full Court Press (1 Year Later),Neutral
+485,2.251,2023-04-18T01:51:16.466967Z,486,2023-04-18T01:51:16.466967Z,1,Daily Discussion Thread 04/08/2023,Neutral
+486,2.305,2023-04-18T01:51:19.292157Z,487,2023-04-18T01:51:19.292157Z,1,[FRESH EP] Pyrex - Thanks for holding on,Neutral
+487,2.054,2023-04-18T01:51:21.927077Z,488,2023-04-18T01:51:21.927077Z,1,[DISCUSSION] 42 Dugg & EST Gee - Last Ones Left (1 Year Later),Neutral
+488,1.89,2023-04-18T01:51:24.381793Z,489,2023-04-18T01:51:24.381793Z,1,[FIRST IMPRESSIONS] Meyhem Lauren DJ Muggs & Madlib - Champagne For Breakfast,Neutral
+489,2.492,2023-04-18T01:51:27.460972Z,490,2023-04-18T01:51:27.460972Z,1,[DISCUSSION] Scarface - Balls And My Word (20 Years Later),Neutral
+490,6.2,2023-04-18T01:51:34.250418Z,491,2023-04-18T01:51:34.250418Z,1,Tyler the Creator's 'CALL ME IF YOU GET LOST' sells 70K with its deluxe's release Lil Wayne's greatest hits compilation 'I Am Music' sells 20K Larry June & The Alchemist's 'The Great Escape' sells 19K Davido's 'Timeless' sells 18K,Positive
+491,2.917,2023-04-18T01:51:37.657879Z,492,2023-04-18T01:51:37.657879Z,1,[DISCUSSION] Vince Staples - RAMONA PARK BROKE MY HEART (1 Year Later),Neutral
+492,3.28,2023-04-18T01:51:41.555778Z,493,2023-04-18T01:51:41.555778Z,1,Chamillionaire - Good Morning,Neutral
+493,32.62,2023-04-18T01:52:14.689064Z,494,2023-04-18T01:52:14.689064Z,1,Mac Dre - She Neva Seen,Neutral
+494,4.708,2023-04-18T01:52:19.970954Z,495,2023-04-18T01:52:19.970954Z,1,[DISCUSSION] Paul Wall & Termanology - Start 2 Finish (1 Year Later),Neutral
+495,3.786,2023-04-18T01:52:24.277318Z,496,2023-04-18T01:52:24.277318Z,1,[DISCUSSION] Fivio Foreign - B.I.B.L.E. (1 Year Later),Neutral
+496,8.858,2023-04-18T01:52:33.643730Z,497,2023-04-18T01:52:33.643730Z,1,[FRESH ALBUM] Sauce Gohan - Cold War: A Gangsta Story,Neutral
+497,20.319,2023-04-18T01:52:54.457251Z,498,2023-04-18T01:52:54.457251Z,1,Gucci Mane - Photo Shoot (Flying Lotus remix),Neutral
+498,10.823,2023-04-18T01:53:05.869033Z,499,2023-04-18T01:53:05.869033Z,1,NAV - Tussin ft. Young Thug (Official Audio),Neutral
+499,2.688,2023-04-18T01:53:09.177152Z,500,2023-04-18T01:53:09.177152Z,1,[FIRST IMPRESSIONS] Rae Sremmurd - Sremm 4 Life,Neutral
+500,5.465,2023-04-18T01:53:15.203780Z,501,2023-04-18T01:53:15.203780Z,1,[FIRST IMPRESSIONS] Troy Ave - Richer Than My Haters,Neutral
+501,3.69,2023-04-18T01:53:19.472328Z,502,2023-04-18T01:53:19.472328Z,1,ITAP - Update to our Rules (Proposed changes),Neutral
+502,4.71,2023-04-18T01:53:24.750913Z,503,2023-04-18T01:53:24.750913Z,1,Announcing Photo of the Month winner for March!,Positive
+503,3.049,2023-04-18T01:53:28.359449Z,504,2023-04-18T01:53:28.360448Z,1,ITAP of a bar in NYC,Neutral
+504,3.56,2023-04-18T01:53:32.519312Z,505,2023-04-18T01:53:32.520225Z,1,ITAP of my cats paws,Neutral
+505,4.977,2023-04-18T01:53:38.040169Z,506,2023-04-18T01:53:38.040169Z,1,ITAP of the Oregon coastline.,Neutral
+506,7.304,2023-04-18T01:53:45.817460Z,507,2023-04-18T01:53:45.817460Z,1,ITAP of Main Street in Mapleton Utah,Neutral
+507,75.846,2023-04-18T01:55:02.227404Z,508,2023-04-18T01:55:02.227404Z,1,ITAP of a fortress that becomes an island with the tide,Neutral
+508,3.077,2023-04-18T01:55:05.930701Z,509,2023-04-18T01:55:05.930701Z,1,ITAP of an abandoned Tudor style mansion in the heart of Ohio,Neutral
+509,13.887,2023-04-18T01:55:20.448939Z,510,2023-04-18T01:55:20.449519Z,1,ITAP of seats in an abandoned theater,Neutral
+510,3.369,2023-04-18T01:55:24.514805Z,511,2023-04-18T01:55:24.514805Z,1,ITAP of a outside kitty,Neutral
+511,5.689,2023-04-18T01:55:30.723947Z,512,2023-04-18T01:55:30.723947Z,1,ITAP of my wife walking on the desert dunes,Positive
+512,3.166,2023-04-18T01:55:34.476805Z,513,2023-04-18T01:55:34.476805Z,1,ITAP Of a Long Eared Owl,Neutral
+513,5.018,2023-04-18T01:55:40.088303Z,514,2023-04-18T01:55:40.088303Z,1,ITAP of Cape Perpetua along the Oregon Coastline.,Neutral
+514,2.905,2023-04-18T01:55:43.557085Z,515,2023-04-18T01:55:43.557085Z,1,ITAP of a tree and a cloud,Neutral
+515,2.844,2023-04-18T01:55:46.958556Z,516,2023-04-18T01:55:46.959918Z,1,ITAP of my cat,Positive
+516,2.916,2023-04-18T01:55:50.495974Z,517,2023-04-18T01:55:50.495974Z,1,ITAP of a cat and a dog enjoying time together,Positive
+517,5.172,2023-04-18T01:55:56.281888Z,518,2023-04-18T01:55:56.281888Z,1,ITAP of a fly,Neutral
+518,4.191,2023-04-18T01:56:01.053978Z,519,2023-04-18T01:56:01.053978Z,1,ITAP of my SIL's Cow,Neutral
+519,5.144,2023-04-18T01:56:06.813100Z,520,2023-04-18T01:56:06.813100Z,1,ITAP of my friend holding his guitar,Neutral
+520,6.108,2023-04-18T01:56:13.526597Z,521,2023-04-18T01:56:13.527707Z,1,ITAP Of a Mariachi Violinist,Neutral
+521,2.654,2023-04-18T01:56:16.628520Z,522,2023-04-18T01:56:16.628520Z,1,ITAP of a good girl,Positive
+522,4.478,2023-04-18T01:56:21.696625Z,523,2023-04-18T01:56:21.696625Z,1,ITAP of calla lilies by the ocean,Positive
+523,24.731,2023-04-18T01:56:46.972109Z,524,2023-04-18T01:56:46.972109Z,1,ITAP - St George’s Chapel Windsor Castle,Neutral
+524,2.801,2023-04-18T01:56:50.334149Z,525,2023-04-18T01:56:50.334149Z,1,ITAP of Blackwater Holylight Band,Neutral
+525,103.871,2023-04-18T01:58:34.873184Z,526,2023-04-18T01:58:34.873184Z,1,ITAP of a rainbow contrail near the Florida/Georgia Line.,Neutral
+526,3.645,2023-04-18T01:58:38.923658Z,527,2023-04-18T01:58:38.923658Z,1,Weekly 'What Should I Buy' and Order/Shipping Thread,Neutral
+527,4.491,2023-04-18T01:58:43.867544Z,528,2023-04-18T01:58:43.868543Z,1,What does 5G+ mean?,Neutral
+528,8.538,2023-04-18T01:58:52.998849Z,529,2023-04-18T01:58:52.998849Z,1,Apple support tells me this is normal behaviour. Are they right?,Neutral
+529,102.043,2023-04-18T02:00:35.623604Z,530,2023-04-18T02:00:35.623604Z,1,My iPhone 13 has always done this even with clean camera lenses. They are barely scratched so I can’t explain it,Neutral
+530,2.9,2023-04-18T02:00:39.095242Z,531,2023-04-18T02:00:39.095242Z,1,The torch icon turns on!,Positive
+531,4.177,2023-04-18T02:00:43.852086Z,532,2023-04-18T02:00:43.852086Z,1,How do I prevent autocorrect from changing “were” to “we’re” on its own?,Neutral
+532,10.287,2023-04-18T02:00:54.692409Z,533,2023-04-18T02:00:54.692409Z,1,Why does my spell check always recommended words not in English? I’m trying to type “ironic”. I have no alternate language keyboards active.,Negative
+533,4.551,2023-04-18T02:00:59.824993Z,534,2023-04-18T02:00:59.824993Z,1,All photos come in like this. I can’t download. I tried turning on/off iMessages.,Negative
+534,4.876,2023-04-18T02:01:05.247930Z,535,2023-04-18T02:01:05.247930Z,1,Taking up 2GB of storage when I have no photos,Negative
+535,82.52,2023-04-18T02:02:28.309005Z,536,2023-04-18T02:02:28.309005Z,1,Iphone 11 back glass issue,Negative
+536,155.025,2023-04-18T02:05:03.888196Z,537,2023-04-18T02:05:03.889225Z,1,AssistiveTouch issues,Negative
+537,4.427,2023-04-18T02:05:08.787161Z,538,2023-04-18T02:05:08.787161Z,1,iOS 16.4 issue,Negative
+538,9.339,2023-04-18T02:05:18.756895Z,539,2023-04-18T02:05:18.756895Z,1,Is it worth it to factory reset an iPhone to increase performance?,Neutral
+539,3.117,2023-04-18T02:05:22.577328Z,540,2023-04-18T02:05:22.577328Z,1,Is 64GB enough for average use in a iPhone 12?,Neutral
+540,8.501,2023-04-18T02:05:31.658927Z,541,2023-04-18T02:05:31.658927Z,1,Hi. I am looking for suggestions or pros and cons on the iPhone SE 2nd or 3rd generation or an iPhone 11 or 12.,Neutral
+541,3.196,2023-04-18T02:05:35.445193Z,542,2023-04-18T02:05:35.445193Z,1,Iphone keeps shutting off for no reason.,Negative
+542,20.299,2023-04-18T02:05:56.470913Z,543,2023-04-18T02:05:56.470913Z,1,Why do some of my apps have these bubbles around buttons?,Negative
+543,3.151,2023-04-18T02:06:00.320560Z,544,2023-04-18T02:06:00.320560Z,1,iPhone 7 Charger Port Loose,Negative
+544,69.52,2023-04-18T02:07:10.439902Z,545,2023-04-18T02:07:10.439902Z,1,Multiple Volume Channels?,Neutral
+545,5.929,2023-04-18T02:07:17.061329Z,546,2023-04-18T02:07:17.061329Z,1,iPhone XR to iPhone 12 Pro/Max,Neutral
+546,5.284,2023-04-18T02:07:22.922991Z,547,2023-04-18T02:07:22.922991Z,1,I can’t talk to people on the phone using a different microphone,Negative
+547,27.671,2023-04-18T02:07:51.314143Z,548,2023-04-18T02:07:51.315136Z,1,Replace or repair iPhone 12 mini?,Neutral
+548,10.644,2023-04-18T02:08:02.542121Z,549,2023-04-18T02:08:02.542121Z,1,I opened my door to let my cat out at 11PM and someone was walking up to the door saying their Find My iPhone showed their phone as being at my house. What should I do? My parents and I didn’t take anyone’s phone.,Neutral
+549,7.887,2023-04-18T02:08:11.008142Z,550,2023-04-18T02:08:11.008142Z,1,Should I remove cracked lens protector,Neutral
+550,12.942,2023-04-18T02:08:24.520598Z,551,2023-04-18T02:08:24.520598Z,1,Can’t delete downloaded voices,Negative
+551,106.612,2023-04-18T02:10:00.433602Z,552,2023-04-18T02:10:15.496681Z,1,Saturday APPreciation thread (Apr 08 2023) - Your weekly app recommendation/request thread!,Positive
+552,7.403,2023-04-18T02:10:26.308673Z,553,2023-04-18T02:10:26.308673Z,1,Many Galaxy S23/S23+ have an hardware issue on the main camera that causes permanent blurred and smudged spots Samsung refuses to aknowledge the issue and fix it.,Negative
+553,6.969,2023-04-18T02:10:33.856317Z,554,2023-04-18T02:10:33.856317Z,1,Samsung Galaxy S23 Ultra display deep dive: Still not the best Samsung Display OLED on the market,Negative
+554,4.303,2023-04-18T02:10:38.774618Z,555,2023-04-18T02:10:38.774618Z,1,Nothing phone (1) long-term review,Neutral
+555,15.813,2023-04-18T02:10:55.217146Z,556,2023-04-18T02:10:55.217146Z,1,AGM G2 Guardian Initial Review (LONG AS HECK),Neutral
+556,42.242,2023-04-18T02:11:38.109231Z,557,2023-04-18T02:11:38.109231Z,1,Google to prohibit personal loan apps from accessing user photos contacts,Negative
+557,36.136,2023-04-18T02:12:14.861829Z,558,2023-04-18T02:12:14.861829Z,1,Terra Nil is a fascinating reverse city-builder out now on Android,Positive
+558,6.305,2023-04-18T02:12:21.730565Z,559,2023-04-18T02:12:21.730565Z,1,[Exclusive] Google working on 'Find My Device' feature even when phone is turned off,Positive
+559,3.517,2023-04-18T02:12:25.949052Z,560,2023-04-18T02:12:25.949052Z,1,Daily Superthread (Apr 07 2023) - Your daily thread for questions device recommendations and general discussions!,Positive
+560,12.771,2023-04-18T02:12:39.472582Z,561,2023-04-18T02:12:39.472582Z,1,The Samsung Galaxy S10 series has reached its end of life,Negative
+561,159.854,2023-04-18T02:15:19.898968Z,562,2023-04-18T02:15:19.898968Z,1,Your mouse and keyboard settings affect Bluetooth controllers,Neutral
+562,3.951,2023-04-18T02:15:24.403867Z,563,2023-04-18T02:15:24.403867Z,1,Motorola Edge 40 Pro review,Neutral
+563,6.679,2023-04-18T02:15:31.643187Z,564,2023-04-18T02:15:31.643187Z,1,Microsoft brings its Bing chatbot to your fingertips with SwiftKey on Android - The Verge,Positive
+564,5.536,2023-04-18T02:15:37.694802Z,565,2023-04-18T02:15:37.694802Z,1,Motorola’s big-battery budget phone gets 5G and a price hike,Positive
+565,13.031,2023-04-18T02:15:51.337126Z,566,2023-04-18T02:15:51.338225Z,1,Pwning Pixel 6 with a leftover patch | The GitHub Blog,Neutral
+566,7.953,2023-04-18T02:15:59.845968Z,567,2023-04-18T02:15:59.845968Z,1,Help Google: Why do blocked numbers on my Android phones come back to haunt me?,Negative
+567,83.461,2023-04-18T02:17:23.827661Z,568,2023-04-18T02:17:23.827661Z,1,Samsung Electronics and AMD Extend Strategic IP Licensing Agreement To Bring AMD Radeon Graphics to Future Mobile Platforms,Positive
+568,6.983,2023-04-18T02:17:31.341159Z,569,2023-04-18T02:17:31.341159Z,1,Galaxy S22 is the latest to get April 2023 security update in the US,Positive
+569,81.366,2023-04-18T02:18:53.273802Z,570,2023-04-18T02:18:53.273802Z,1,Android 14 developer preview reveals upcoming features changes in final build,Neutral
+570,13.574,2023-04-18T02:19:07.499339Z,571,2023-04-18T02:19:07.499339Z,1,Magisk v26.0,Neutral
+571,5.739,2023-04-18T02:19:13.977338Z,572,2023-04-18T02:19:13.977338Z,1,Google Pay users are confused after receiving unexpected cashback rewards,Negative
+572,10.536,2023-04-18T02:19:25.186271Z,573,2023-04-18T02:19:25.186271Z,1,Xiaomi: Debuting this April Xiaomi 13 Ultra will be available in global markets in the coming months.,Positive
+573,25.378,2023-04-18T02:19:51.160123Z,574,2023-04-18T02:19:51.160123Z,1,Daily Superthread (Apr 06 2023) - Your daily thread for questions device recommendations and general discussions!,Positive
+574,7.769,2023-04-18T02:19:59.559442Z,575,2023-04-18T02:19:59.559442Z,1,Giving Users More Transparency and Control Over Account Data,Positive
+575,10.693,2023-04-18T02:20:10.921697Z,576,2023-04-18T02:20:10.922890Z,1,My 11 Year Long Samsung Galaxy And 12 Year Long iPhone Ownership Experience Story: Here Are Things The Galaxy Does Better Than My iPhone,Positive
+576,4.697,2023-04-18T02:20:16.308382Z,577,2023-04-18T02:20:16.308382Z,1,As an American im tired of people saying America is the stupidest country in the world�,Positive
+577,3.717,2023-04-18T02:20:20.705901Z,578,2023-04-18T02:20:20.705901Z,1,Somebody said my dad's gay.,Negative
+578,4.532,2023-04-18T02:20:25.842218Z,579,2023-04-18T02:20:25.842218Z,1,An Afghan a Albanian a Algerian a American…,Neutral
+579,5.394,2023-04-18T02:20:31.834322Z,580,2023-04-18T02:20:31.834322Z,1,What do you call a can opener that doesn’t work?,Neutral
+580,6.649,2023-04-18T02:20:39.048662Z,581,2023-04-18T02:20:39.048662Z,1,What did the left buttcheek say to the right buttcheek?,Negative
+581,4.753,2023-04-18T02:20:44.422818Z,582,2023-04-18T02:20:44.422818Z,1,I’m bird watching with Sinead O’Connor.,Neutral
+582,4.844,2023-04-18T02:20:49.982256Z,583,2023-04-18T02:20:49.983256Z,1,What do you call a zombie that writes music?,Negative
+583,4.348,2023-04-18T02:20:54.833320Z,584,2023-04-18T02:20:54.833320Z,1,Why I feel uncomfortable around guitarists?,Negative
+584,5.531,2023-04-18T02:21:00.974588Z,585,2023-04-18T02:21:00.974588Z,1,Why did Star Wars come out 4 5 6 1 2 3?,Neutral
+585,4.39,2023-04-18T02:21:05.909457Z,586,2023-04-18T02:21:05.909457Z,1,What's a Muslims favorite fruit?,Neutral
+586,5.611,2023-04-18T02:21:12.241090Z,587,2023-04-18T02:21:12.241090Z,1,There are two reasons I don’t drink toilet water.,Positive
+587,4.156,2023-04-18T02:21:17.011501Z,588,2023-04-18T02:21:17.011501Z,1,Why is water heavier than butane?,Neutral
+588,5.935,2023-04-18T02:21:23.547123Z,589,2023-04-18T02:21:23.547123Z,1,What's a Reverse Exorcism?,Neutral
+589,7.055,2023-04-18T02:21:31.224390Z,590,2023-04-18T02:21:31.224390Z,1,Did you hear about the guy who was told he would get $100 dollars if he jumped out of a window?,Negative
+590,31.495,2023-04-18T02:22:03.497167Z,591,2023-04-18T02:22:03.497167Z,1,Did you know that Fed Ex and UPS are merging?,Neutral
+591,85.656,2023-04-18T02:23:29.839086Z,592,2023-04-18T02:23:29.839086Z,1,How can you tell chicken eggs and duck eggs apart?,Neutral
+592,11.958,2023-04-18T02:23:42.516140Z,593,2023-04-18T02:23:42.516140Z,1,I got fired from the ladder factory yesterday 😔,Negative
+593,3.713,2023-04-18T02:23:46.810115Z,594,2023-04-18T02:23:46.810115Z,1,Why don’t eggs tell jokes?,Neutral
+594,6.138,2023-04-18T02:23:53.575096Z,595,2023-04-18T02:23:53.575096Z,1,What's the difference between a dirty bus stop and a lobster with breast implants?,Neutral
+595,4.693,2023-04-18T02:23:58.841499Z,596,2023-04-18T02:23:58.842492Z,1,A Dubliner proposes to his girlfriend on St. Patrick’s Day and gives her a ring with a synthetic diamond.,Neutral
+596,6.875,2023-04-18T02:24:04.273556Z,597,2023-04-18T02:24:08.626790Z,1,Why did the coffee file a police report?,Negative
+597,5.886,2023-04-18T02:24:16.362622Z,598,2023-04-18T02:24:16.362622Z,1,How do you get the attention of a country girl?,Neutral
+598,9.101,2023-04-18T02:24:26.219131Z,599,2023-04-18T02:24:26.219131Z,1,"My wife said she doesn't like when I talk in ""click-bait.""",Negative
+599,3.797,2023-04-18T02:24:30.661318Z,600,2023-04-18T02:24:30.661318Z,1,why was Cinderella not good at sports?,Negative
+600,7.726,2023-04-18T02:24:39.099675Z,601,2023-04-18T02:24:39.099675Z,1,"My son just told me this one. What airport is in ""bunny world""",Neutral
+601,3.176,2023-04-18T02:24:42.826293Z,602,2023-04-18T02:24:42.826293Z,1,Official Question Thread! Ask /r/photography anything you want to know about photography or cameras! Don't be shy! Newbies welcome!,Neutral
+602,6.797,2023-04-18T02:24:50.330415Z,603,2023-04-18T02:24:50.330415Z,1,What are some good tricks or practices to improve phone photography?,Positive
+603,2.848,2023-04-18T02:24:53.868896Z,604,2023-04-18T02:24:53.868896Z,1,Landscape photography,Neutral
+604,6.642,2023-04-18T02:25:01.187649Z,605,2023-04-18T02:25:01.187649Z,1,DPReview Will Remain Available as an Archive After It Closes,Positive
+605,11.822,2023-04-18T02:25:13.814103Z,606,2023-04-18T02:25:13.814103Z,1,Indoor Public Spaces that are good for practicing?,Positive
+606,4.642,2023-04-18T02:25:19.090291Z,607,2023-04-18T02:25:19.090291Z,1,What amount of time do you think is enough to realize that you are not going to be able to turn photography into a career?,Neutral
+607,3.427,2023-04-18T02:25:23.260948Z,608,2023-04-18T02:25:23.260948Z,1,best camera for beginners?,Positive
+608,3.976,2023-04-18T02:25:27.982870Z,609,2023-04-18T02:25:27.982870Z,1,Monthly Follow Thread: April 08 2023,Neutral
+609,2.675,2023-04-18T02:25:31.343667Z,610,2023-04-18T02:25:31.343667Z,1,Official Raw Exchange Thread: April 08 2023,Neutral
+610,14.702,2023-04-18T02:25:46.664530Z,611,2023-04-18T02:25:46.664530Z,1,Do you use a dedicated light meter for your digital photography?,Neutral
+611,2.161,2023-04-18T02:25:49.510686Z,612,2023-04-18T02:25:49.510686Z,1,Salty Saturday: April 08 2023,Neutral
+612,28.672,2023-04-18T02:26:18.927575Z,613,2023-04-18T02:26:18.927575Z,1,How many photos do you keep and why?,Neutral
+613,3.884,2023-04-18T02:26:23.471849Z,614,2023-04-18T02:26:23.471849Z,1,Mamiya RB67 Focus Pinion and Knob Repair,Neutral
+614,11.51,2023-04-18T02:26:35.560439Z,615,2023-04-18T02:26:35.560439Z,1,Unpopular opinion: Tragedy photography should not be accepted for competition & contest,Neutral
+615,5.052,2023-04-18T02:26:41.245713Z,616,2023-04-18T02:26:41.245713Z,1,Official Question Thread! Ask /r/photography anything you want to know about photography or cameras! Don't be shy! Newbies welcome!,Neutral
+616,3.806,2023-04-18T02:26:45.688154Z,617,2023-04-18T02:26:45.688154Z,1,Kwame Brathwaite  ‘Black Is Beautiful’ Photographer Dies at 85,Negative
+617,8.647,2023-04-18T02:26:54.988645Z,618,2023-04-18T02:26:54.988645Z,1,I Choose Photography over Learning to Draw/Paint/Graphic Art because of AI--Am I Correct?,Neutral
+618,5.146,2023-04-18T02:27:00.796384Z,619,2023-04-18T02:27:00.796384Z,1,Flickr updates their community guidelines to combat copyleft trolls,Positive
+619,3.428,2023-04-18T02:27:04.879521Z,620,2023-04-18T02:27:04.879521Z,1,Wins Wednesday: April 05 2023,Neutral
+620,10.401,2023-04-18T02:27:16.084276Z,621,2023-04-18T02:27:16.084276Z,1,So its 2023 - for professional photographers are we still correcting any obvious signs of nipples poking through clothing?,Positive
+621,5.289,2023-04-18T02:27:21.936516Z,622,2023-04-18T02:27:21.936516Z,1,Are groups like ASMP PPA  etc. relevant anymore?,Neutral
+622,5.653,2023-04-18T02:27:28.171908Z,623,2023-04-18T02:27:28.171908Z,1,What are your thoughts on the artistic ethics of compositing?,Neutral
+623,2.776,2023-04-18T02:27:31.534052Z,624,2023-04-18T02:27:31.534052Z,1,Album Share Tuesday: April 04 2023,Neutral
+624,2.628,2023-04-18T02:27:34.917290Z,625,2023-04-18T02:27:34.917290Z,1,Official Question Thread! Ask /r/photography anything you want to know about photography or cameras! Don't be shy! Newbies welcome!,Neutral
+625,3.407,2023-04-18T02:27:39.053883Z,626,2023-04-18T02:27:39.053883Z,1,It’s about the photographer not the camera.,Positive
