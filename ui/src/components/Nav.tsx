@@ -7,7 +7,9 @@ import {
   Link,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
+import redditlogo from "../assets/reddit_logo.png";
 import { BsGithub } from "react-icons/bs";
+import Image from "next/image";
 
 export default function NavBar() {
   return (
@@ -19,7 +21,10 @@ export default function NavBar() {
           justifyContent={"space-between"}
           alignItems={"center"}
         >
-          <Text>reddit moods</Text>
+          <Flex alignItems={"center"} gap={2}>
+            <Image src={redditlogo} alt = "Reddit Moods logo" height={32}></Image>
+            <Text>Reddit Moods</Text>
+          </Flex>
           <Link
             as={NextLink}
             href={"https://github.com/reddit-moods/monorepo"}
