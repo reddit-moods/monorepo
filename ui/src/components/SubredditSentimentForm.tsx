@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import SentimentResult from "./SentimentResult";
+import HeadingsView from "./HeadingsView";
 
 interface FormValues {
   subreddit: string;
@@ -114,6 +115,127 @@ export default function SubredditSentimentForm() {
     }
   }
 
+  const fakeHeadings = [
+    "lol",
+    "fake heading 2",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+  ];
+
+  const fakePred: ModelPrediction[] = [
+    {
+      score: 0.999,
+      label: "LABEL_0",
+    },
+    {
+      score: 0.01,
+      label: "LABEL_1",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+  ];
+
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -165,7 +287,15 @@ export default function SubredditSentimentForm() {
           </Button>
         </Flex>
       </form>
-      <SentimentResult sentimentState={sentimentState}></SentimentResult>
+      {sentimentState && (
+        <>
+          <SentimentResult sentimentState={sentimentState}></SentimentResult>
+          <HeadingsView
+            headings={fakeHeadings}
+            predictions={fakePred}
+          ></HeadingsView>
+        </>
+      )}
     </>
   );
 }
