@@ -75,11 +75,16 @@ def handler(event, context):
 
         # Send a raw API request to reddit to fetch the 25 hottest
         headings = []
-        for submission in reddit.subreddit(subreddit).hot(limit=25):
+        top25 = reddit.subreddit(subreddit).hot(limit=25)
+        print("top 25: ", top25)
+        for submission in top25:
             headings.append(submission.title)
 
+        print("Headings: ", headings)
         # running model on each heading
-        model_result = nlp_pipeline(subreddit)
+        model_result = nlp_pipeline(headings)
+
+        print("Model Result: ", model_result)
 
         # find most common label
         label_counts = Counter(heading['label'] for heading in model_result)
@@ -97,33 +102,38 @@ def handler(event, context):
         # Post-process
         resp_body = {
             "sentiment": label_to_pred(most_common_label),
-            "confidence": average_score
+            "confidence": average_score,
+            "predictions": model_result,
+            "headings": headings,
         }
+
+        stringified_body = json.dumps(resp_body)
+        print("resp_body: ", stringified_body)
+
+        response = {
+            "statusCode": 200,
+            "body": stringified_body,
+            'headers': {
+                'Access-Control-Allow-Headers': 'Content-Type',
+                'Access-Control-Allow-Origin': "*",
+                'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
+            },
+        }
+
+        return response
     except Exception as err:
         print("Praw Error: ", err)
-        print("Running backup method...")
-        # Potential Errors:
-        # Praw Error: 404
-        # - Happens when subreddit does not exist or is banned
-        # - TODO: Return a separate error message and handle on frontend.
-        res = nlp_pipeline(subreddit)[0]
-
         resp_body = {
-            "sentiment": label_to_pred(res["label"]),
-            "confidence": res["score"]
+            "msg": f"Could not find headings for subreddit {subreddit}"
         }
-
-    stringified_body = json.dumps(resp_body)
-    print("resp_body: ", stringified_body)
-
-    response = {
-        "statusCode": 200,
-        "body": stringified_body,
-        'headers': {
-            'Access-Control-Allow-Headers': 'Content-Type',
-            'Access-Control-Allow-Origin': "*",
-            'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
-        },
-    }
-
-    return response
+        stringified_body = json.dumps(resp_body)
+        print("resp_body: ", stringified_body)
+        return {
+            "statusCode": 404,
+            "body": stringified_body,
+            'headers': {
+                'Access-Control-Allow-Headers': 'Content-Type',
+                'Access-Control-Allow-Origin': "*",
+                'Access-Control-Allow-Methods': 'OPTIONS,POST,GET'
+            },
+        }

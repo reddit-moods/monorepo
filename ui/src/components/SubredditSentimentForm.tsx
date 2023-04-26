@@ -9,17 +9,29 @@ import {
   InputGroup,
   InputLeftElement,
   Text,
+  Toast,
+  useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import SentimentResult from "./SentimentResult";
+import HeadingsView from "./HeadingsView";
 
 interface FormValues {
   subreddit: string;
 }
 
+export type RobertaLabels = "LABEL_0" | "LABEL_1" | "LABEL_2";
+export interface ModelPrediction {
+  label: RobertaLabels;
+  score: number;
+}
+
 export interface SentimentState {
   sentiment: "Negative" | "Neutral" | "Positive";
   confidence: number;
+  headings: string[];
+  predictions: ModelPrediction[];
+  subreddit: string;
 }
 
 export default function SubredditSentimentForm() {
@@ -33,40 +45,198 @@ export default function SubredditSentimentForm() {
     SentimentState | undefined
   >(undefined);
 
+  const toast = useToast();
+
   async function onSubmit(values: FormValues) {
-    const API_URL =
-      "https://28gsbggq1f.execute-api.us-east-1.amazonaws.com/prod";
-    const resp = await fetch(
-      API_URL +
-        "?" +
-        new URLSearchParams({
-          subreddit: values.subreddit,
-        }),
-      {
-        headers: {
-          "content-type": "application/json",
-        },
-        method: "GET",
-        mode: "cors",
+    try {
+      const API_URL =
+        "https://ptc21y1ehd.execute-api.us-east-1.amazonaws.com/prod";
+      const resp = await fetch(
+        API_URL +
+          "?" +
+          new URLSearchParams({
+            subreddit: values.subreddit,
+          }),
+        {
+          headers: {
+            "content-type": "application/json",
+          },
+          method: "GET",
+          mode: "cors",
+        }
+      );
+
+      console.log("resp: ", resp);
+
+      if (resp.status == 404) {
+        // Error
+        toast({
+          title: `Could not access the subreddit ${values.subreddit}`,
+          description: "It probably is private, banned, or does not exist.",
+          status: "error",
+          duration: 9000,
+          isClosable: true,
+          position: "top",
+        });
+        return;
       }
-    );
-    console.log("resp: ", resp);
 
-    const respBody = (await resp.json()) as SentimentState;
-    console.log(
-      "sentiment: ",
-      respBody.sentiment,
-      "confidence: ",
-      respBody.confidence
-    );
+      const respBody = (await resp.json()) as SentimentState;
+      console.log(
+        "sentiment: ",
+        respBody.sentiment,
+        "confidence: ",
+        respBody.confidence,
+        "headings: ",
+        respBody.headings,
+        "pred: ",
+        respBody.predictions
+      );
 
-    const state = {
-      sentiment: respBody.sentiment,
-      confidence: respBody.confidence,
-    };
+      const state: SentimentState = {
+        sentiment: respBody.sentiment,
+        confidence: respBody.confidence,
+        headings: respBody.headings,
+        predictions: respBody.predictions,
+        subreddit: values.subreddit,
+      };
 
-    setSentimentState(state);
+      setSentimentState(state);
+    } catch (e: any) {
+      console.log("Unknown error occurred: ", e);
+      if (e && e.message && e.message.includes("Failed to fetch")) {
+        toast({
+          title: "Oops! Our servers are down :(",
+          description: "Sit tight and they'll be back up in no time!",
+          status: "error",
+          duration: 9000,
+          isClosable: true,
+          position: "top",
+        });
+      }
+    }
   }
+
+  const fakeHeadings = [
+    "lol",
+    "fake heading 2",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+    "fake heading 3",
+  ];
+
+  const fakePred: ModelPrediction[] = [
+    {
+      score: 0.999,
+      label: "LABEL_0",
+    },
+    {
+      score: 0.01,
+      label: "LABEL_1",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+    {
+      score: 0.56,
+      label: "LABEL_2",
+    },
+  ];
 
   return (
     <>
@@ -119,7 +289,16 @@ export default function SubredditSentimentForm() {
           </Button>
         </Flex>
       </form>
-      <SentimentResult sentimentState={sentimentState}></SentimentResult>
+      {sentimentState && (
+        <>
+          <SentimentResult sentimentState={sentimentState}></SentimentResult>
+          <HeadingsView
+            headings={sentimentState.headings}
+            predictions={sentimentState.predictions}
+            subreddit={sentimentState.subreddit}
+          ></HeadingsView>
+        </>
+      )}
     </>
   );
 }
