@@ -31,6 +31,7 @@ export interface SentimentState {
   confidence: number;
   headings: string[];
   predictions: ModelPrediction[];
+  subreddit: string;
 }
 
 export default function SubredditSentimentForm() {
@@ -49,7 +50,7 @@ export default function SubredditSentimentForm() {
   async function onSubmit(values: FormValues) {
     try {
       const API_URL =
-        "https://28gsbggq1f.execute-api.us-east-1.amazonaws.com/prod";
+        "https://ptc21y1ehd.execute-api.us-east-1.amazonaws.com/prod";
       const resp = await fetch(
         API_URL +
           "?" +
@@ -97,6 +98,7 @@ export default function SubredditSentimentForm() {
         confidence: respBody.confidence,
         headings: respBody.headings,
         predictions: respBody.predictions,
+        subreddit: values.subreddit,
       };
 
       setSentimentState(state);
@@ -291,8 +293,9 @@ export default function SubredditSentimentForm() {
         <>
           <SentimentResult sentimentState={sentimentState}></SentimentResult>
           <HeadingsView
-            headings={fakeHeadings}
-            predictions={fakePred}
+            headings={sentimentState.headings}
+            predictions={sentimentState.predictions}
+            subreddit={sentimentState.subreddit}
           ></HeadingsView>
         </>
       )}
