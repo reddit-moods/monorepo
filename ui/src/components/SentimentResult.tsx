@@ -30,24 +30,23 @@ export default function SentimentResult({
             <Image src={HappyEmoji} alt="Sentiment: Happy" height={100}></Image>
           )}
           {sentimentState && sentimentState.sentiment == "Neutral" && (
-            <Image src={NeutralEmoji} alt="Sentiment: Neutral" height={100}></Image>
+            <Image
+              src={NeutralEmoji}
+              alt="Sentiment: Neutral"
+              height={100}
+            ></Image>
           )}
           {sentimentState && sentimentState.sentiment == "Negative" && (
             <Image src={SadEmoji} alt="Sentiment: Sad" height={100}></Image>
           )}
         </Flex>
 
-        {sentimentState ? (
+        {sentimentState && (
           <>
             {/* <p>Sentiment: {sentimentState.sentiment}</p> */}
-            {<p>{(100*sentimentState.confidence).toFixed(2)}% confident</p>}
-          </>
-        ) : (
-          <>
-            <p>Please submit a subreddit to get its current sentiment!</p>
+            {<p>{(100 * sentimentState.confidence).toFixed(2)}% confident</p>}
           </>
         )}
-
       </Flex>
     </>
   );
