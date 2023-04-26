@@ -28,13 +28,7 @@ export default function Home() {
       />
       <main>
         <NavBar></NavBar>
-        <Flex
-          w={"100%"}
-          h={"100vh"}
-          flexDirection="column"
-          alignItems={"center"}
-          justifyContent={"center"}
-        >
+        <Flex w={"100%"} flexDirection="column" alignItems={"center"} my={"20"}>
           <SubredditSentimentForm></SubredditSentimentForm>
         </Flex>
       </main>
