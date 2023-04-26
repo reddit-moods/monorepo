@@ -25,20 +25,22 @@ export default function SentimentResult({
           ></SentimentEmoji>
         )}
         {/* TODO: change this to be reactive */}
-        {sentimentState && sentimentState.sentiment == "Positive" && (
-          <Image src={HappyEmoji} alt="Sentiment: Happy"></Image>
-        )}
-        {sentimentState && sentimentState.sentiment == "Neutral" && (
-          <Image src={NeutralEmoji} alt="Sentiment: Neutral"></Image>
-        )}
-        {sentimentState && sentimentState.sentiment == "Negative" && (
-          <Image src={SadEmoji} alt="Sentiment: Sad"></Image>
-        )}
+        <Flex py={4}>
+          {sentimentState && sentimentState.sentiment == "Positive" && (
+            <Image src={HappyEmoji} alt="Sentiment: Happy" height={100}></Image>
+          )}
+          {sentimentState && sentimentState.sentiment == "Neutral" && (
+            <Image src={NeutralEmoji} alt="Sentiment: Neutral" height={100}></Image>
+          )}
+          {sentimentState && sentimentState.sentiment == "Negative" && (
+            <Image src={SadEmoji} alt="Sentiment: Sad" height={100}></Image>
+          )}
+        </Flex>
 
         {sentimentState ? (
           <>
             {/* <p>Sentiment: {sentimentState.sentiment}</p> */}
-            {<p>Confidence: {sentimentState.confidence}</p>}
+            {<p>{(100*sentimentState.confidence).toFixed(2)}% confident</p>}
           </>
         ) : (
           <>

@@ -6,20 +6,20 @@ export default function SentimentEmoji({
   if (sentiment == "Positive") {
     return (
       <>
-        <h1>Sentiment Result: POSITIVE</h1>
+        <h1>This subreddit is positive</h1>
       </>
     );
   }
   if (sentiment == "Neutral") {
     return (
       <>
-        <h1>Sentiment Result: NEUTRAL</h1>
+        <h1>This subreddit is neutral</h1>
       </>
     );
   }
   return (
     <>
-      <h1>Sentiment Result: NEGATIVE</h1>
+      <h1>This subreddit is negative</h1>
     </>
   );
 }
