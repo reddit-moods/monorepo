@@ -6,6 +6,7 @@ SPDX-License-Identifier: MIT-0
 import json
 import praw
 import os
+import boto3
 
 from transformers import pipeline
 from collections import Counter
@@ -39,6 +40,29 @@ def label_to_pred(label: str):
     mappings = ["Negative", "Neutral", "Positive"]
     return mappings[label_idx]
 
+
+def load_cached_model_s3():
+    s3 = boto3.resource("s3")
+    out_dir = os.environ["TRANSFORMERS_CACHE"]
+    bucket_name = "reddit-moods-transformers-cache"
+    s3_folder = "/cache"
+    bucket = s3.Bucket(bucket_name)
+    for obj in bucket.objects.filter(Prefix=s3_folder):
+        target = obj.key if out_dir is None \
+            else os.path.join(out_dir, os.path.relpath(obj.key, s3_folder))
+        if not os.path.exists(os.path.dirname(target)):
+            os.makedirs(os.path.dirname(target))
+        if obj.key[-1] == '/':
+            continue
+        bucket.download_file(obj.key, target)
+
+
+try:
+    print("Loading cached model from s3...")
+    load_cached_model_s3()
+    print("Loaded: ", os.listdir(os.environ["TRANSFORMERS_CACHE"]))
+except Exception as e:
+    print("failed to load cached model: ", e)
 
 nlp_pipeline = initialize_pipeline()
 

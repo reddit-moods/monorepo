@@ -31,17 +31,24 @@ class ServerlessHuggingFaceStack(Stack):
         super().__init__(scope, id, **kwargs)
 
         # EFS needs to be setup in a VPC
-        vpc = ec2.Vpc(self, 'Vpc', max_azs=2)
+        vpc = ec2.Vpc(self, 'Vpc',
+                      nat_gateways=0,
+                      max_azs=1)
 
         # creates a file system in EFS to store cache models
         fs = efs.FileSystem(self, 'FileSystem',
                             vpc=vpc,
                             removal_policy=RemovalPolicy.DESTROY)
+        fs.connections.allow_default_port_from_any_ipv4()
         access_point = fs.add_access_point('MLAccessPoint',
-                                           create_acl=efs.Acl(
-                                               owner_gid='1001', owner_uid='1001', permissions='750'),
                                            path="/export/models",
-                                           posix_user=efs.PosixUser(gid="1001", uid="1001"))
+                                           create_acl=efs.Acl(owner_uid="0", owner_gid="0",
+                                                              permissions="777"),
+                                           posix_user=efs.PosixUser(uid="0", gid="0"),)
+        #    create_acl=efs.Acl(
+        #        owner_gid='1001', owner_uid='1001', permissions='750'),
+        #    path="/export/models",
+        #    posix_user=efs.PosixUser(gid="1001", uid="1001"))
 
         # %%
         # iterates through the Python files in the docker directory
@@ -84,7 +91,6 @@ class ServerlessHuggingFaceStack(Stack):
         # }
         req_template = {"application/json": '{"statusCode": 200}'}
         get_sentiment_int = apigateway.LambdaIntegration(handler,
-                                                         #  request_parameters=req_params,
                                                          request_templates=req_template)
 
         api.root.add_method("GET", get_sentiment_int)   # GET /
