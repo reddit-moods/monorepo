@@ -7,6 +7,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { ModelPrediction } from "./SubredditSentimentForm";
+import React from "react";
 
 interface HeadingsPredictionPair {
   heading: string;
@@ -102,7 +103,7 @@ function SentimentSection({
               </Flex>
               {pairs.map(({ heading, prediction }) => {
                 return (
-                  <>
+                  <React.Fragment key={heading}>
                     <Flex
                       flexDir={"row"}
                       gap={4}
@@ -111,7 +112,7 @@ function SentimentSection({
                       <Text>{heading}</Text>
                       <Text>{(100 * prediction.score).toFixed(2)}%</Text>
                     </Flex>
-                  </>
+                  </React.Fragment>
                 );
               })}
             </Flex>
