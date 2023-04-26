@@ -71,7 +71,7 @@ export default function SubredditSentimentForm() {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <Flex flexDir={"column"} minW={["50%", "400px", "500px"]}>
+        <Flex flexDir={"column"} minW={"50%"}>
           <FormControl isInvalid={errors.subreddit != undefined}>
             <FormLabel
               htmlFor="subreddit"
