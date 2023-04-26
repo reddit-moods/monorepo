@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import SubredditSentimentForm from "../components/SubredditSentimentForm";
 import { NextSeo } from "next-seo";
 import NavBar from "@redditmoods/components/Nav";
@@ -27,9 +27,11 @@ export default function Home() {
         }}
       />
       <main>
-        <NavBar></NavBar>
-        <Flex w={"100%"} flexDirection="column" alignItems={"center"} my={"20"}>
-          <SubredditSentimentForm></SubredditSentimentForm>
+        <Flex flexDir={"column"} bg={"gray.100"} h={"100vh"}>
+          <NavBar></NavBar>
+          <Box py={10} px={10} my={20} mx={96} bg={"white"} rounded={"lg"}>
+            <SubredditSentimentForm></SubredditSentimentForm>
+          </Box>
         </Flex>
       </main>
     </>
