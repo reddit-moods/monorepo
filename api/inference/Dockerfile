@@ -26,6 +26,7 @@ COPY *.py ${FUNCTION_DIR}
 RUN pip uninstall --yes jupyter
 RUN pip install --target ${FUNCTION_DIR} awslambdaric
 RUN pip install --target ${FUNCTION_DIR} sentencepiece protobuf
+RUN pip install --target ${FUNCTION_DIR} praw
 
 FROM huggingface/transformers-pytorch-cpu
 

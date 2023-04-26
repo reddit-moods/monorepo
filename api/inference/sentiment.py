@@ -61,39 +61,57 @@ def handler(event, context):
     print("type: ", type(qs["subreddit"]))
     subreddit = qs["subreddit"]
 
-    # initialize praw
-    reddit = praw.Reddit(
-        client_id=os.environ['REDDIT_CLIENT_ID'],
-        client_secret=os.environ['REDDIT_CLIENT_SECRET'],
-        user_agent=os.environ['REDDIT_USER_AGENT']
-    )
+    print("REDDIT_CLIENT_ID: ", os.environ['REDDIT_CLIENT_ID'])
+    print("REDDIT_CLIENT_SECRET: ", os.environ['REDDIT_CLIENT_SECRET'])
+    print("REDDIT_USER_AGENT: ", os.environ['REDDIT_USER_AGENT'])
 
-    # Send a raw API request to reddit to fetch the 25 hottest
-    headings = []
-    for submission in reddit.subreddit(subreddit).hot(limit=25):
-        headings.append(submission.title)
+    try:
+        # initialize praw
+        reddit = praw.Reddit(
+            client_id=os.environ['REDDIT_CLIENT_ID'],
+            client_secret=os.environ['REDDIT_CLIENT_SECRET'],
+            user_agent=os.environ['REDDIT_USER_AGENT']
+        )
 
-    # running model on each heading
-    model_result = nlp_pipeline(headings)
+        # Send a raw API request to reddit to fetch the 25 hottest
+        headings = []
+        for submission in reddit.subreddit(subreddit).hot(limit=25):
+            headings.append(submission.title)
 
-    # find most common label
-    label_counts = Counter(heading['label'] for heading in model_result)
-    most_common_label = label_counts.most_common(1)[0][0]
+        # running model on each heading
+        model_result = nlp_pipeline(subreddit)
 
-    # average the predict of the most common label
-    total_score = 0
-    count = 0
-    for h in model_result:
-        if h['label'] == most_common_label:
-            total_score += h['score']
-            count += 1
-    average_score = total_score / count
+        # find most common label
+        label_counts = Counter(heading['label'] for heading in model_result)
+        most_common_label = label_counts.most_common(1)[0][0]
 
-    # Post-process
-    resp_body = {
-        "sentiment": label_to_pred(most_common_label),
-        "confidence": average_score
-    }
+        # average the predict of the most common label
+        total_score = 0
+        count = 0
+        for h in model_result:
+            if h['label'] == most_common_label:
+                total_score += h['score']
+                count += 1
+        average_score = total_score / count
+
+        # Post-process
+        resp_body = {
+            "sentiment": label_to_pred(most_common_label),
+            "confidence": average_score
+        }
+    except Exception as err:
+        print("Praw Error: ", err)
+        print("Running backup method...")
+        # Potential Errors:
+        # Praw Error: 404
+        # - Happens when subreddit does not exist or is banned
+        # - TODO: Return a separate error message and handle on frontend.
+        res = nlp_pipeline(subreddit)[0]
+
+        resp_body = {
+            "sentiment": label_to_pred(res["label"]),
+            "confidence": res["score"]
+        }
 
     stringified_body = json.dumps(resp_body)
     print("resp_body: ", stringified_body)

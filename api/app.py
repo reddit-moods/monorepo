@@ -61,7 +61,12 @@ class ServerlessHuggingFaceStack(Stack):
             vpc=vpc,
             filesystem=lambda_.FileSystem.from_efs_access_point(
                 access_point, '/mnt/hf_models_cache'),
-            environment={"TRANSFORMERS_CACHE": "/mnt/hf_models_cache"},
+            environment={
+                "TRANSFORMERS_CACHE": "/mnt/hf_models_cache",
+                "REDDIT_CLIENT_ID": os.environ["REDDIT_CLIENT_ID"],
+                "REDDIT_CLIENT_SECRET": os.environ["REDDIT_CLIENT_SECRET"],
+                "REDDIT_USER_AGENT": os.environ["REDDIT_USER_AGENT"],
+            },
         )
 
         api = apigateway.RestApi(self, "reddit-moods-api",
