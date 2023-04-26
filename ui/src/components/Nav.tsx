@@ -10,7 +10,8 @@ import NextLink from "next/link";
 import redditlogo from "../assets/reddit_logo.png";
 import { BsGithub } from "react-icons/bs";
 //import Image from "next/image";
-import { Image } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react';
+import "@fontsource/source-sans-pro";
 
 export default function NavBar() {
   return (
@@ -24,7 +25,7 @@ export default function NavBar() {
         >
           <Flex alignItems={"center"} gap={2}>
             <Image src={"https://www.redditinc.com/assets/images/site/reddit-logo.png"} alt = "Reddit Moods logo" boxSize={"32px"}></Image>
-            <Text>Reddit Moods</Text>
+            <Text fontFamily={"Source Sans Pro"} fontSize={"lg"} fontWeight={600}>reddit moods</Text>
           </Flex>
           <Link
             as={NextLink}
