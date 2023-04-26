@@ -9,7 +9,9 @@ from aws_cdk import (
     aws_apigateway as apigateway,
     aws_lambda as lambda_,
     aws_efs as efs,
-    aws_ec2 as ec2
+    aws_ec2 as ec2,
+    aws_events as events,
+    aws_events_targets as targets,
 )
 from aws_cdk import App, Stack, Duration, RemovalPolicy, Tags
 
@@ -86,6 +88,12 @@ class ServerlessHuggingFaceStack(Stack):
                                                          request_templates=req_template)
 
         api.root.add_method("GET", get_sentiment_int)   # GET /
+
+        # Rule to add cloudwatch event to keep lambda warm
+        rule = events.Rule(self, "Rule",
+                           schedule=events.Schedule.rate(Duration.minutes(5)),
+                           targets=[targets.LambdaFunction(handler)]
+                           )
 
 
 app = App()
