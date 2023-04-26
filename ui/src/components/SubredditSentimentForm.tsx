@@ -73,8 +73,13 @@ export default function SubredditSentimentForm() {
       <form onSubmit={handleSubmit(onSubmit)}>
         <Flex flexDir={"column"} minW={["50%", "400px", "500px"]}>
           <FormControl isInvalid={errors.subreddit != undefined}>
-            <FormLabel htmlFor="subreddit" fontSize={"2xl"} fontWeight={600}>
-              Subreddit Sentiment Analysis
+            <FormLabel
+              htmlFor="subreddit"
+              fontSize={"2xl"}
+              fontWeight={600}
+              textAlign={"center"}
+            >
+              Reddit Moods
             </FormLabel>
             <InputGroup>
               <InputLeftElement pointerEvents="none">
