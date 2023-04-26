@@ -19,8 +19,9 @@ interface FormValues {
   subreddit: string;
 }
 
-interface ModelPrediction {
-  label: "LABEL_0" | "LABEL_1" | "LABEL_2";
+export type RobertaLabels = "LABEL_0" | "LABEL_1" | "LABEL_2";
+export interface ModelPrediction {
+  label: RobertaLabels;
   score: number;
 }
 
