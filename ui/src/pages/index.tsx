@@ -13,7 +13,7 @@ export default function Home() {
           url: "https://reddit-moods-ui.vercel.app/",
           title: "Reddit Moods | Subreddit Sentiment Analysis",
           description:
-            "Seamlessly analyze the current sentiment of a subreddit.",
+            "Seamlessly analyze the current sentiment/mood of a subreddit.",
           images: [
             {
               url: "https://www.redditinc.com/assets/images/site/reddit-logo.png",
