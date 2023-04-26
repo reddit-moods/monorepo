@@ -1,6 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 import SubredditSentimentForm from "../components/SubredditSentimentForm";
 import { NextSeo } from "next-seo";
+import NavBar from "@redditmoods/components/Nav";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         }}
       />
       <main>
+        <NavBar></NavBar>
         <Flex
           w={"100%"}
           h={"100vh"}
