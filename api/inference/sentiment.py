@@ -7,8 +7,9 @@ import json
 import praw
 import os
 
-from transformers import pipeline, AutoTokenizer
+from transformers import pipeline
 from collections import Counter
+
 
 def initialize_pipeline():
     # Taking in the text string - wen is so hot
@@ -59,26 +60,26 @@ def handler(event, context):
 
     print("type: ", type(qs["subreddit"]))
     subreddit = qs["subreddit"]
-    
+
     # initialize praw
     reddit = praw.Reddit(
-    client_id=os.environ['REDDIT_CLIENT_ID'],
-    client_secret=os.environ['REDDIT_CLIENT_SECRET'],
-    user_agent=os.enviroN['REDDIT_USER_AGENT']
+        client_id=os.environ['REDDIT_CLIENT_ID'],
+        client_secret=os.environ['REDDIT_CLIENT_SECRET'],
+        user_agent=os.environ['REDDIT_USER_AGENT']
     )
-    
-    # Send a raw API request to reddit to fetch the 25 hottest 
+
+    # Send a raw API request to reddit to fetch the 25 hottest
     headings = []
     for submission in reddit.subreddit(subreddit).hot(limit=25):
         headings.append(submission.title)
-        
+
     # running model on each heading
     model_result = nlp_pipeline(headings)
-    
+
     # find most common label
     label_counts = Counter(heading['label'] for heading in model_result)
     most_common_label = label_counts.most_common(1)[0][0]
-    
+
     # average the predict of the most common label
     total_score = 0
     count = 0
@@ -87,12 +88,13 @@ def handler(event, context):
             total_score += h['score']
             count += 1
     average_score = total_score / count
-    
+
     # Post-process
     resp_body = {
         "sentiment": label_to_pred(most_common_label),
         "confidence": average_score
     }
+
     stringified_body = json.dumps(resp_body)
     print("resp_body: ", stringified_body)
 
