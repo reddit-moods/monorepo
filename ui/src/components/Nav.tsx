@@ -15,7 +15,7 @@ import { Image } from '@chakra-ui/react'
 export default function NavBar() {
   return (
     <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+      <Box bg={"white"} px={4}>
         <Flex
           h={16}
           flexDir={"row"}
@@ -34,7 +34,8 @@ export default function NavBar() {
           >
             <IconButton
               icon={<BsGithub />}
-              size="lg"
+              size={"lg"}
+              bg={"transparent"}
               aria-label="Go to Reddit Moods GitHub"
             ></IconButton>
           </Link>

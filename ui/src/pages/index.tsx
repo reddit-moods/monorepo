@@ -29,8 +29,18 @@ export default function Home() {
       <main>
         <Flex flexDir={"column"} bg={"gray.100"} h={"100vh"}>
           <NavBar></NavBar>
-          <Box py={10} px={10} my={20} mx={96} bg={"white"} rounded={"lg"}>
-            <SubredditSentimentForm></SubredditSentimentForm>
+
+          <Box
+            py={["5%", "3%"]}
+            px={["8%", "5%"]}
+            my={20}
+            mx={["5%", "15%"]}
+            bg={"white"}
+            rounded={"xl"}
+          >
+            <Flex w={"100%"} flexDir={"column"}>
+              <SubredditSentimentForm></SubredditSentimentForm>
+            </Flex>
           </Box>
         </Flex>
       </main>
