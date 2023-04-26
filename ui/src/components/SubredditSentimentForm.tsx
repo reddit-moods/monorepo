@@ -9,6 +9,8 @@ import {
   InputGroup,
   InputLeftElement,
   Text,
+  Toast,
+  useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import SentimentResult from "./SentimentResult";
@@ -17,9 +19,16 @@ interface FormValues {
   subreddit: string;
 }
 
+interface ModelPrediction {
+  label: "LABEL_0" | "LABEL_1" | "LABEL_2";
+  score: number;
+}
+
 export interface SentimentState {
   sentiment: "Negative" | "Neutral" | "Positive";
   confidence: number;
+  headings: string[];
+  predictions: ModelPrediction[];
 }
 
 export default function SubredditSentimentForm() {
@@ -33,39 +42,75 @@ export default function SubredditSentimentForm() {
     SentimentState | undefined
   >(undefined);
 
+  const toast = useToast();
+
   async function onSubmit(values: FormValues) {
-    const API_URL =
-      "https://28gsbggq1f.execute-api.us-east-1.amazonaws.com/prod";
-    const resp = await fetch(
-      API_URL +
-        "?" +
-        new URLSearchParams({
-          subreddit: values.subreddit,
-        }),
-      {
-        headers: {
-          "content-type": "application/json",
-        },
-        method: "GET",
-        mode: "cors",
+    try {
+      const API_URL =
+        "https://28gsbggq1f.execute-api.us-east-1.amazonaws.com/prod";
+      const resp = await fetch(
+        API_URL +
+          "?" +
+          new URLSearchParams({
+            subreddit: values.subreddit,
+          }),
+        {
+          headers: {
+            "content-type": "application/json",
+          },
+          method: "GET",
+          mode: "cors",
+        }
+      );
+
+      console.log("resp: ", resp);
+
+      if (resp.status == 404) {
+        // Error
+        toast({
+          title: `Could not access the subreddit ${values.subreddit}`,
+          description: "It probably is private, banned, or does not exist.",
+          status: "error",
+          duration: 9000,
+          isClosable: true,
+          position: "top",
+        });
+        return;
       }
-    );
-    console.log("resp: ", resp);
 
-    const respBody = (await resp.json()) as SentimentState;
-    console.log(
-      "sentiment: ",
-      respBody.sentiment,
-      "confidence: ",
-      respBody.confidence
-    );
+      const respBody = (await resp.json()) as SentimentState;
+      console.log(
+        "sentiment: ",
+        respBody.sentiment,
+        "confidence: ",
+        respBody.confidence,
+        "headings: ",
+        respBody.headings,
+        "pred: ",
+        respBody.predictions
+      );
 
-    const state = {
-      sentiment: respBody.sentiment,
-      confidence: respBody.confidence,
-    };
+      const state: SentimentState = {
+        sentiment: respBody.sentiment,
+        confidence: respBody.confidence,
+        headings: respBody.headings,
+        predictions: respBody.predictions,
+      };
 
-    setSentimentState(state);
+      setSentimentState(state);
+    } catch (e: any) {
+      console.log("Unknown error occurred: ", e);
+      if (e && e.message && e.message.includes("Failed to fetch")) {
+        toast({
+          title: "Oops! Our servers are down :(",
+          description: "Sit tight and they'll be back up in no time!",
+          status: "error",
+          duration: 9000,
+          isClosable: true,
+          position: "top",
+        });
+      }
+    }
   }
 
   return (
