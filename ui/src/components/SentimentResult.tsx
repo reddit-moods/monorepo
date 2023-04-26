@@ -25,7 +25,7 @@ export default function SentimentResult({
           ></SentimentEmoji>
         )}
         {/* TODO: change this to be reactive */}
-        <Flex py={4}>
+        <Flex py={2}>
           {sentimentState && sentimentState.sentiment == "Positive" && (
             <Image src={HappyEmoji} alt="Sentiment: Happy" height={100}></Image>
           )}
