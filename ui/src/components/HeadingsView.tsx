@@ -95,7 +95,7 @@ export default function HeadingsView({
     <>
       {/* Render three separate scrollable cards for positive/neutral/negative */}
       {/* <Flex flexDir={"row"} gap={4} w={"100%"} justifyContent={"center"}> */}
-      <SimpleGrid columns={3} gap={4} w={"100%"}>
+      <SimpleGrid columns={3} gap={4} w={"100%"} my={4}>
         <SentimentSection
           sentimentHeader={"Positive"}
           pairs={positive}
