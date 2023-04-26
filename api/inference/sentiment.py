@@ -75,12 +75,14 @@ def handler(event, context):
 
         # Send a raw API request to reddit to fetch the 25 hottest
         headings = []
-        for submission in reddit.subreddit(subreddit).hot(limit=25):
+        top25 = reddit.subreddit(subreddit).hot(limit=25)
+        print("top 25: ", top25)
+        for submission in top25:
             headings.append(submission.title)
 
         print("Headings: ", headings)
         # running model on each heading
-        model_result = nlp_pipeline(subreddit)
+        model_result = nlp_pipeline(headings)
 
         print("Model Result: ", model_result)
 
