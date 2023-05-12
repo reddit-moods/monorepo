@@ -60,18 +60,15 @@ def remove_accented_chars(text):
 def expand_contractions(text):
     expanded_words = []   
     for word in text.split():
-    # using contractions.fix to expand the shortened words
         expanded_words.append(contractions.fix(word))  
     new_text = ' '.join(expanded_words)
     return new_text
 
 def remove_special_characters(text):
-    # define the pattern to keep
     pat = r'[^a-zA-z0-9.,!?/:;\"\'\s]' 
     return re.sub(pat, '', text)
 
 def remove_numbers(text):
-    # define the pattern to keep
     pattern = r'[^a-zA-z.,!?/:;\"\'\s]' 
     return re.sub(pattern, '', text)
 
@@ -85,16 +82,13 @@ def get_stem(text):
     return text
 
 def remove_stopwords(text):
-    # convert sentence into token of words
     tokens = tokenizer.tokenize(text)
     tokens = [token.strip() for token in tokens]
-    # check in lowercase 
     t = [token for token in tokens if token.lower() not in stopword_list]
     text = ' '.join(t)    
     return text
 
 def remove_extra_whitespace_tabs(text):
-    #pattern = r'^\s+$|\s+$'
     pattern = r'^\s*|\s\s*'
     return re.sub(pattern, ' ', text).strip()
 
